@@ -20,7 +20,6 @@ public class Tools implements Interactives
      */
     public void act()
     {
-        if ( )
         
     }
 
