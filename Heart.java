@@ -1,3 +1,7 @@
-public class Heart {
-    
+public class Heart 
+{
+    public Heart()
+    {
+
+    }
 }

@@ -1,5 +1,6 @@
 import java.util.EventListener;
 import java.util.Scanner;
+import java.util.Stack;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.event.MouseInputListener;
@@ -8,10 +9,13 @@ import java.awt.event.KeyEvent;
 public class Jungle implements KeyListener
 {
     boolean arrowKey = false;
-    public static void story(Character c)
+    Character me = new Character(null);
+    ArrayList<Tools> myTools = me.getTools();
+    public static void story()
     {
         Scanner scan = new Scanner(System.in);
         int curr = 0;
+        
         System.out.println("Crash! the leaves around you rustle as you sit up");
         System.out.println("You observe your surroundings, a vast jungle, with a river flowing through it");
         System.out.println("Your stomach rumbles and you feel the dryness of your mouth");
@@ -26,6 +30,19 @@ public class Jungle implements KeyListener
             System.out.println("Option 2: Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)");
             System.out.println("Choice: ");
             curr = scan.nextInt();
+            
+            if ( curr == 1 )
+            {
+                System.out.println("As you venture in the river the water begins to make you lose balance");
+            }
+            else 
+            {
+
+            }
+        }
+        else
+        {
+
         }
         
     }
