@@ -8,6 +8,10 @@ public class Character implements Interactives
     {
         npcVerse = verse;
     }
+    public Character( int myHearts)
+    {
+        myHealth = new Health(myHearts);
+    }
 
     public void act()
     {
@@ -20,6 +24,10 @@ public class Character implements Interactives
     public ArrayList<Tools> getTools()
     {
         return myTools;
+    }
+    public Health getHealth()
+    {
+        return myHealth;
     }
     
 }

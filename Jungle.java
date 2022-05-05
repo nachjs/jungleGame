@@ -12,6 +12,7 @@ public class Jungle implements KeyListener
     boolean arrowKey = false;
     Character me = new Character(null);
     ArrayList<Tools> myTools = me.getTools();
+    Health myHealth = me.getHealth();
     public static void story()
     {
         Scanner scan = new Scanner(System.in);
