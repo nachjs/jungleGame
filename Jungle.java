@@ -13,6 +13,10 @@ public class Jungle implements KeyListener
     Character me = new Character(null);
     ArrayList<Tools> myTools = me.getTools();
     Health myHealth = me.getHealth();
+    
+    /**
+     * @return void
+     */
     public static void story()
     {
         Scanner scan = new Scanner(System.in);
@@ -48,6 +52,10 @@ public class Jungle implements KeyListener
         }
         
     }
+    
+    /** 
+     * @param args[]
+     */
     public static void main(String args[])
     {
         Character c = new Character("hi");
@@ -55,6 +63,10 @@ public class Jungle implements KeyListener
 
        
     }
+    
+    /** 
+     * @param e
+     */
     @Override
     public void keyTyped(KeyEvent e)
     {
@@ -64,12 +76,20 @@ public class Jungle implements KeyListener
         }
         
     }
+    
+    /** 
+     * @param e
+     */
     @Override
     public void keyPressed(KeyEvent e)
     {
         return;
         
     }
+    
+    /** 
+     * @param e
+     */
     @Override
     public void keyReleased(KeyEvent e)
     {
