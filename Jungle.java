@@ -11,6 +11,11 @@ public class Jungle {
     //boolean arrowKey = false;
     Character me = new Character(null);
     ArrayList<Tools> myTools = me.getTools();
+    Health myHealth = me.getHealth();
+    
+    /**
+     * @return void
+     */
     public static void story()
     {
         Scanner scan = new Scanner(System.in);
@@ -46,6 +51,10 @@ public class Jungle {
         }
         
     }
+    
+    /** 
+     * @param args[]
+     */
     public static void main(String args[])
     {
         Character c = new Character("hi");
