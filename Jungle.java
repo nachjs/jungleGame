@@ -7,9 +7,8 @@ import javax.swing.event.MouseInputListener;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 import java.util.*;
-public class Jungle implements KeyListener
-{
-    boolean arrowKey = false;
+public class Jungle {
+    //boolean arrowKey = false;
     Character me = new Character(null);
     ArrayList<Tools> myTools = me.getTools();
     public static void story()
@@ -54,25 +53,5 @@ public class Jungle implements KeyListener
 
        
     }
-    @Override
-    public void keyTyped(KeyEvent e)
-    {
-        if ( e.getKeyCode() == KeyEvent.VK_RIGHT )
-        {
-            arrowKey = true;
-        }
-        
-    }
-    @Override
-    public void keyPressed(KeyEvent e)
-    {
-        return;
-        
-    }
-    @Override
-    public void keyReleased(KeyEvent e)
-    {
-        return; 
-        
-    }
+   
 }
