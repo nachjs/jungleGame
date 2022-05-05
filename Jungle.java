@@ -57,10 +57,7 @@ public class Jungle {
      */
     public static void main(String args[])
     {
-        Character c = new Character("hi");
-        story(c);
-
-       
+        story();
     }
    
 }
