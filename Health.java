@@ -1,4 +1,5 @@
-import java.util.Stack;
+
+import java.util.*;
 public class Health implements Interactives 
 {
 
@@ -8,6 +9,8 @@ public class Health implements Interactives
     private boolean stayingCool = false;
     private boolean hydrated = false;
     private boolean full = false;
+    private ArrayList<Clothes> myClothes = null;
+    private Stack<Clothes> currClothes = null;
    
     /**
      * 
@@ -84,7 +87,28 @@ public class Health implements Interactives
         }
         return evaluate();
     }
-    
+
+    /**
+     * 
+     */
+    public void wearClothes()
+    {
+        if ( myClothes != null)
+        {
+            stayingWarm = true;
+            return;
+        }
+        stayingWarm = false;
+        
+    }
+
+    public void takeOffClothes()
+    {
+        if ( currClothes.peek() != null)
+        {
+            myClothes.add(currClothes.pop())
+        }
+    }
     /** 
      * @return boolean
      */
