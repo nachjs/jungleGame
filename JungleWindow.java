@@ -7,7 +7,7 @@ import javax.swing.event.MouseInputListener;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 import java.util.*;
-public class JungleGUI implements KeyListener{
+public class JungleWindow implements KeyListener{
     
     boolean arrowKey = false;
 

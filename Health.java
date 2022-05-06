@@ -95,7 +95,9 @@ public class Health implements Interactives
     {
         if ( myClothes != null)
         {
+            currClothes.push(myClothes.remove(0));
             stayingWarm = true;
+            stayingCool = false;
             return;
         }
         stayingWarm = false;
@@ -106,7 +108,9 @@ public class Health implements Interactives
     {
         if ( currClothes.peek() != null)
         {
-            myClothes.add(currClothes.pop())
+            myClothes.add(currClothes.pop());
+            stayingWarm = false;
+            stayingCool = true;
         }
     }
     /** 
