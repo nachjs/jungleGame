@@ -58,7 +58,7 @@ public class JungleWindow implements KeyListener{
     }
     
     public static void main (String[] args){
-        JungleGUI gui = new JungleGUI(); 
+        JungleWindow gui = new JungleWindow(); 
         gui.framing();
     }
     
