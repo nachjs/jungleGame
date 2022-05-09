@@ -53,10 +53,17 @@ public class JungleWindow implements KeyListener{
         JFrame f = new JFrame("choose your own adventure!!");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setBounds(100, 100, 800, 800);
-
+        JLabel l = new JLabel(); 
+        l.setText("text");
+        f.add(l);
         f.setVisible(true);
     }
-    
+    public void home(){
+
+    }
+    public void game(){
+
+    }
     public static void main (String[] args){
         JungleWindow gui = new JungleWindow(); 
         gui.framing();
