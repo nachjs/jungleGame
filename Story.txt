@@ -1,0 +1,36 @@
+Crash! the leaves around you rustle as you sit up
+You observe your surroundings, a vast jungle, with a river flowing through it
+Your stomach rumbles and you feel the dryness of your mouth
+You don't know how long it has been since you last had a meal
+Option 1: Go towards the river (1) ; Search for food (2)
+Choice: 
+@1-1
+You make your way to the river bank
+The water flows past your feet, with a powerful current
+Option 2: Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)
+Choice: 
+@2-1
+As you wade through the river you begin to feel somethind graze your foot
+You bend down and notce A Stone Dagger
+Stone Dagger is added to your Inventory!
+You bend down and you take a drink of water
+For now, your thrist is quenched;
+Option 3: Cross the river (1)
+
+
+
+
+
+
+
+
+
+
+@1-2
+You stand up and face the forest in front of you
+out of the corner of your eye you stop something move
+Option 2: Chase the movement (1) ; Keep walking through the forest (2)
+Choice:
+@2-1
+
+
