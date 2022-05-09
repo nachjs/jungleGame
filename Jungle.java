@@ -1,5 +1,6 @@
 //import java.util.EventListener;
 import java.util.Scanner;
+import java.io.*;
 //import java.util.Stack;
 //import java.awt.*;
 //import javax.swing.*;
@@ -12,17 +13,34 @@ public class Jungle {
     Character me = new Character(null);
     ArrayList<Tools> myTools = me.getTools();
     Health myHealth = me.getHealth();
-    String currTag = "";
+    private static String currTag = "@0-0";
     
     /**
      * @return void
+     * @throws IOException
      */
-    public static String nextSection()
+    public static String nextSection() throws IOException
     {
         Scanner scan = new Scanner(System.in);
         int curr = 0;
+        File file = new File("Story.txt");
+        BufferedReader br = null;
+        String result = "";
+        br = new BufferedReader(new FileReader(file));
+        while ( br.readLine() != null)
+        {
+            if ( br.readLine().contains(currTag))
+            {
+                while ( !br.readLine().contains("@"))
+                {
+                    result += br.readLine();
+                }
+            }
+        }
         
-
+        
+        
+        return "";
         
     }
     
@@ -31,7 +49,7 @@ public class Jungle {
      */
     public static void main(String args[])
     {
-        story();
+        nextSection();
     }
    
 }

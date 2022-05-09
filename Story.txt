@@ -1,8 +1,8 @@
 @0-0
-Crash! the leaves around you rustle as you sit up
-You observe your surroundings, a vast jungle, with a river flowing through it
-Your stomach rumbles and you feel the dryness of your mouth
-You don't know how long it has been since you last had a meal
+Crash! the leaves around you rustle as you sit up/
+You observe your surroundings, a vast jungle, with a river flowing through it/
+Your stomach rumbles and you feel the dryness of your mouth/
+You don't know how long it has been since you last had a meal/
 Option 1: Go towards the river (1) ; Search for food (2)
 Choice: 
 @1-1
