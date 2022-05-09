@@ -12,14 +12,17 @@ public class Jungle {
     Character me = new Character(null);
     ArrayList<Tools> myTools = me.getTools();
     Health myHealth = me.getHealth();
+    String currTag = "";
     
     /**
      * @return void
      */
-    public static void story()
+    public static String nextSection()
     {
         Scanner scan = new Scanner(System.in);
         int curr = 0;
+        
+
         
     }
     
