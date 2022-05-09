@@ -11,7 +11,7 @@ import java.awt.event.KeyEvent;
 //import java.util.*;
 public class JungleWindow implements KeyListener{
     JFrame f = new JFrame("choose your own adventure!!");
-    JLabel story = new JLabel();
+    JTextArea story = new JTextArea();
     JLabel bg = new JLabel(); 
     Jungle j = new Jungle();
     boolean arrowKey = false;
