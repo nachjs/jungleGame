@@ -5,10 +5,15 @@
 import javax.swing.*;
 //import javax.swing.event.MouseInputListener;
 import java.awt.event.KeyListener;
+import java.awt.Color;
+import java.awt.Image;
 import java.awt.event.KeyEvent;
 //import java.util.*;
 public class JungleWindow implements KeyListener{
-    
+    JFrame f = new JFrame("choose your own adventure!!");
+    JLabel story = new JLabel();
+    JLabel bg = new JLabel(); 
+    Jungle j = new Jungle();
     boolean arrowKey = false;
 
     @Override
@@ -50,20 +55,25 @@ public class JungleWindow implements KeyListener{
     }
     
     public void framing(){
-        JFrame f = new JFrame("choose your own adventure!!");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.setBounds(100, 100, 800, 800);
-        JLabel l = new JLabel(); 
-        l.setText("text");
-        f.add(l);
+        f.setBounds(100, 100, 1200, 800);
+        //story text 
+        story.setText("txt for story");
+        story.setBackground(Color.WHITE);
+        story.setBounds(800, 0, 400, 800);
+        f.add(story);
+        //background image 
+        ImageIcon imageIcon = new ImageIcon(new ImageIcon("APCS_JungleIsland.png").getImage().getScaledInstance(800, 800, Image.SCALE_DEFAULT));
+        bg.setBackground(Color.WHITE);
+        f.add(bg);
+        f.setBackground(Color.WHITE);
+        bg.setIcon(imageIcon);
         f.setVisible(true);
     }
-    public void home(){
-
+    public void run(String tag){
+        
     }
-    public void game(){
-
-    }
+    
     public static void main (String[] args){
         JungleWindow gui = new JungleWindow(); 
         gui.framing();
