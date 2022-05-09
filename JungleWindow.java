@@ -1,12 +1,12 @@
-import java.util.EventListener;
-import java.util.Scanner;
-import java.util.Stack;
-import java.awt.*;
+//import java.util.EventListener;
+//import java.util.Scanner;
+//import java.util.Stack;
+//import java.awt.*;
 import javax.swing.*;
-import javax.swing.event.MouseInputListener;
+//import javax.swing.event.MouseInputListener;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
-import java.util.*;
+//import java.util.*;
 public class JungleWindow implements KeyListener{
     
     boolean arrowKey = false;
