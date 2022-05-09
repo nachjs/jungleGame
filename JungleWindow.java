@@ -11,8 +11,8 @@ import java.awt.event.KeyEvent;
 //import java.util.*;
 public class JungleWindow implements KeyListener{
     JFrame f = new JFrame("choose your own adventure!!");
-    JLabel story = new JLabel();
     JLabel bg = new JLabel(); 
+    JScrollPane story = new JScrollPane();
     Jungle j = new Jungle();
     boolean arrowKey = false;
 
@@ -58,12 +58,12 @@ public class JungleWindow implements KeyListener{
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setBounds(100, 100, 1200, 800);
         //story text 
-        story.setText("txt for story");
+        story.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         story.setBackground(Color.WHITE);
-        story.setBounds(800, 0, 400, 800);
+        story.setBounds(850, 0, 400, 800);
         f.add(story);
         //background image 
-        ImageIcon imageIcon = new ImageIcon(new ImageIcon("APCS_JungleIsland.png").getImage().getScaledInstance(800, 800, Image.SCALE_DEFAULT));
+        ImageIcon imageIcon = new ImageIcon(new ImageIcon("APCS_JungleIsland.png").getImage().getScaledInstance(900, 800, Image.SCALE_DEFAULT));
         bg.setBackground(Color.WHITE);
         f.add(bg);
         f.setBackground(Color.WHITE);
