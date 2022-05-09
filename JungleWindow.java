@@ -11,10 +11,6 @@ import java.awt.event.KeyEvent;
 //import java.util.*;
 public class JungleWindow implements KeyListener{
     JFrame f = new JFrame("choose your own adventure!!");
-<<<<<<< HEAD
-    JTextArea story = new JTextArea();
-=======
->>>>>>> 992c4f3541e57416354de5f69979b1b12c327115
     JLabel bg = new JLabel(); 
     JScrollPane story = new JScrollPane();
     Jungle j = new Jungle();
