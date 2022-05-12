@@ -18,7 +18,7 @@ public class JungleWindow {
     JScrollPane story = new JScrollPane();
     JPanel inventory = new JPanel();
     Jungle j = new Jungle();
-    JFrame gameWindow = new JFrame("Begin!");
+    JFrame gameWindow;
     boolean arrowKey = false;
     JButton button;
     
@@ -52,23 +52,11 @@ public class JungleWindow {
 
 
 
-    public void gameFrame(){
+    public void gameFrame()
+    {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setBounds(100, 100, 1200, 800);
-        //story text 
-        story.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
-        story.setBackground(Color.WHITE);
-        story.setBounds(850, 0, 400, 800);
-        f.add(story);
-        //background image 
-        ImageIcon imageIcon = new ImageIcon(new ImageIcon("APCS_JungleIsland.png").getImage().getScaledInstance(900, 800, Image.SCALE_DEFAULT));
-        bg.setBackground(Color.WHITE);
-        f.add(bg);
         f.setBackground(Color.WHITE);
-        bg.setIcon(imageIcon);
-        //hearts bar
-        
-
         f.setVisible(true);
     }
     public void run(){
