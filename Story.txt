@@ -1,15 +1,20 @@
 @0-0
-Crash! the leaves around you rustle as you sit up/
-You observe your surroundings, a vast jungle, with a river flowing through it/
-Your stomach rumbles and you feel the dryness of your mouth/
-You don't know how long it has been since you last had a meal/
+To begin your adventure enter your name!
+
+@0-0
+Crash! the leaves around you rustle as you sit up
+You observe your surroundings, a vast jungle, with a river flowing through it
+Your stomach rumbles and you feel the dryness of your mouth
+You don't know how long it has been since you last had a meal
 Option 1: Go towards the river (1) ; Search for food (2)
 Choice: 
+
 @1-1
 You make your way to the river bank
 The water flows past your feet, with a powerful current
 Option 2: Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)
 Choice: 
+
 @2-1
 As you wade through the river you begin to feel somethind graze your foot
 You bend down and notce A Stone Dagger
