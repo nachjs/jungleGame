@@ -64,7 +64,7 @@ public class JungleWindow implements KeyListener{
         story.setBounds(850, 0, 400, 800);
         f.add(story);
         //background image 
-        ImageIcon imageIcon = new ImageIcon(new ImageIcon("APCS_JungleIsland.png").getImage().getScaledInstance(900, 800, Image.SCALE_DEFAULT));
+        ImageIcon imageIcon = new ImageIcon(new ImageIcon("APCS_JungleHomePage.png").getImage().getScaledInstance(900, 800, Image.SCALE_DEFAULT));
         bg.setBackground(Color.WHITE);
         f.add(bg);
         f.setBackground(Color.WHITE);
