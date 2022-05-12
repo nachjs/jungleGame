@@ -13,6 +13,7 @@ public class JungleWindow implements KeyListener{
     JFrame f = new JFrame("choose your own adventure!!");
     JLabel bg = new JLabel(); 
     JScrollPane story = new JScrollPane();
+    JPanel inventory = new JPanel();
     Jungle j = new Jungle();
     boolean arrowKey = false;
 
@@ -68,10 +69,16 @@ public class JungleWindow implements KeyListener{
         f.add(bg);
         f.setBackground(Color.WHITE);
         bg.setIcon(imageIcon);
+        //hearts bar
+        
+
         f.setVisible(true);
     }
-    public void run(String tag){
-        
+    public void run(){
+        if(arrowKey){
+            //
+        }
+        f.repaint();
     }
     
     public static void main (String[] args){

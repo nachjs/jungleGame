@@ -9,7 +9,7 @@ public class Health implements Interactives
     private boolean stayingCool = false;
     private boolean hydrated = false;
     private boolean full = false;
-    private ArrayList<Clothes> myClothes = null;
+    private ArrayList<Clothes> myClothes = null; //static?? so other classes can add clothes
     private Stack<Clothes> currClothes = null;
    
     /**
