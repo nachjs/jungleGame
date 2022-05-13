@@ -1,4 +1,4 @@
-package src;
+
 import java.util.*;
 public class Character implements Interactives
 {
