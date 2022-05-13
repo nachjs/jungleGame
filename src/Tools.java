@@ -1,3 +1,4 @@
+package src;
 public class Tools implements Interactives
 {
     private boolean attack = false;

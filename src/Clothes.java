@@ -1,3 +1,4 @@
+package src;
 public class Clothes
 {
     String color = "grey";

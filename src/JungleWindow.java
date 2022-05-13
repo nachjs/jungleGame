@@ -1,3 +1,4 @@
+package src;
 //import java.util.EventListener;
 //import java.util.Scanner;
 //import java.util.Stack;
@@ -34,7 +35,7 @@ public class JungleWindow {
         button.setBounds(450, 500, 300, 150);
         button.addActionListener(e -> gameFrame());
         button.setText("Ready?");
-        button.setFont(new Font("Comic Sans", Font.BOLD, 40));
+        button.setFont(new Font("Arial", Font.BOLD, 40));
         gameWindow.add(button);
         ImageIcon currImage = new ImageIcon(new ImageIcon("APCS_JungleHomePage.png").getImage().getScaledInstance(1200, 800, Image.SCALE_DEFAULT));
         gameWindow.add(bg);
@@ -54,13 +55,14 @@ public class JungleWindow {
 
     public void gameFrame()
     {
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.setBounds(100, 100, 1200, 800);
+        gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        gameWindow.setBounds(100, 100, 1200, 800);
         ImageIcon currImage = new ImageIcon(new ImageIcon("OpaqueJungle.png").getImage().getScaledInstance(1200, 800, Image.SCALE_DEFAULT));
-        f.add(bg);
-        f.setBackground(Color.WHITE);
+        gameWindow.add(bg);
+        gameWindow.setBackground(Color.WHITE);
         bg.setIcon(currImage);
-        f.setVisible(true);
+        gameWindow.remove(button);
+        gameWindow.setVisible(true);
 
 
 
