@@ -20,8 +20,23 @@ public class Jungle {
      */
     public String readBlock() throws IOException
     {
-       
-        return "";
+       File f = new File("Story.txt");
+       Scanner sc = new Scanner(f);
+       String block = "";
+       String tag ="";
+       String temp = "";
+       while(sc.hasNextLine()){
+           if(currTag.equals(tag)){
+            block += sc.nextLine();
+           }
+           else{ break;}
+           temp = sc.nextLine();
+           if(temp.indexOf("@")==0){
+               optionNum = Integer.parseInt(temp.substring(1, 2));
+               choice = Integer.parseInt(temp.substring(3));
+           }
+       }
+        return block;
     }
     
     /** 

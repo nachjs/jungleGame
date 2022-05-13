@@ -10,6 +10,7 @@ import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.KeyEvent;
 import java.util.*;
+import java.io.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class JungleWindow {
@@ -42,12 +43,6 @@ public class JungleWindow {
         bg.setIcon(currImage);
         gameWindow.setVisible(true);
         
-        
-        
-        
-
-
-        
     }
 
 
@@ -61,16 +56,14 @@ public class JungleWindow {
         f.setBackground(Color.WHITE);
         bg.setIcon(currImage);
         f.setVisible(true);
-
-
-
-
         
     }
 
     public void run()
     {
        
+
+
     }
     
     public static void main (String[] args){
