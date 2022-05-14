@@ -19,7 +19,7 @@ public class JungleWindow {
     JLabel bg = new JLabel(); 
     JScrollPane story = new JScrollPane();
     JPanel inventory = new JPanel();
-    JungleGame j = new JungleGame();
+    //JungleGame j = new JungleGame();
     JFrame gameWindow;
     boolean arrowKey = false;
     JButton button;
