@@ -1,3 +1,4 @@
+package package1;
 
 import java.util.*;
 public class Character implements Interactives
@@ -56,5 +57,6 @@ public class Character implements Interactives
     {
         return myHealth;
     }
+
     
 }
