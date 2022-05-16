@@ -1,5 +1,4 @@
 package package1;
-
 public class Narrative 
 {
     JungleGame jGame;

@@ -47,9 +47,14 @@ public class JungleWindow {
         gameWindow.add(startButton);
 
         //background image
-        ImageIcon currImage = new ImageIcon(new ImageIcon("APCS_JungleHomePage.png").getImage().getScaledInstance(1200, 800, Image.SCALE_DEFAULT));
+        ImageIcon currImage = new ImageIcon(getClass().getResource("/package1/APCS_JungleHomePage.png"));
+        Image image  = currImage.getImage();
+        Image newimg = image.getScaledInstance(1200, 800, Image.SCALE_DEFAULT);
+        currImage = new ImageIcon(newimg);
         gameWindow.add(bg);
+        bg.setBackground(Color.white);
         bg.setIcon(currImage);
+
 
        
         gameWindow.setVisible(true);
@@ -61,8 +66,10 @@ public class JungleWindow {
 
      
         //add Health bar
-        ImageIcon hearts = new ImageIcon(new ImageIcon("APCS_JungleHeart.png").getImage().getScaledInstance(100, 70, Image.SCALE_DEFAULT));
-       
+        ImageIcon hearts = new ImageIcon(getClass().getResource("/package1/APCS_JungleHeart.png"));
+        Image heartImage  = hearts.getImage();
+        Image newHeart = heartImage.getScaledInstance(100, 70, Image.SCALE_DEFAULT);
+        hearts = new ImageIcon(newHeart);
         /*
         heart 1 from : https://www.tutorialspoint.com/how-to-set-location-of-jlabel-in-a-jframe-with-java
         this link helped me with orientation of the heart
@@ -190,7 +197,7 @@ public class JungleWindow {
         text.setWrapStyleWord(true);
         text.setEditable(false);
         gameWindow.add(text);
-        gameWindow.setVisible(true);
+    
 
          //add Hunger bar
         
@@ -204,10 +211,13 @@ public class JungleWindow {
         //blurred game background
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.setBounds(100, 100, 1200, 800);
-        ImageIcon opaqueCurr = new ImageIcon(new ImageIcon("OpaqueJungle.png").getImage().getScaledInstance(1200, 800, Image.SCALE_DEFAULT));
+        ImageIcon opaque = new ImageIcon(getClass().getResource("/package1/OpaqueJungle.png"));
+        Image opaqueJungle  = opaque.getImage();
+        Image newOpaque = opaqueJungle.getScaledInstance(1200, 800, Image.SCALE_DEFAULT);
+        opaque = new ImageIcon(newOpaque);
         gameWindow.add(bg);
         gameWindow.setBackground(Color.WHITE);
-        bg.setIcon(opaqueCurr);
+        bg.setIcon(opaque);
         
 
        
@@ -225,11 +235,4 @@ public class JungleWindow {
     }
 
 
-public static void main (String[] args)
-{
-    
-}
-    
-    
-    
 }
