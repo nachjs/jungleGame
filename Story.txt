@@ -6,37 +6,89 @@ Crash! the leaves around you rustle as you sit up
 You observe your surroundings, a vast jungle, with a river flowing through it
 Your stomach rumbles and you feel the dryness of your mouth
 You don't know how long it has been since you last had a meal
-Option 1: Go towards the river (1) ; Search for food (2)
-Choice: 
+Option 1: Go towards the river (1) ; Search for food (2) 
 
 @1-1
 You make your way to the river bank
 The water flows past your feet, with a powerful current
 Option 2: Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)
-Choice: 
+@1-2
+You stand up and face the forest in front of you
+out of the corner of your eye you stop something move
+Option 3: Chase the movement (1) ; Keep walking through the forest (2)
 
 @2-1
 As you wade through the river you begin to feel somethind graze your foot
 You bend down and notce A Stone Dagger
-Stone Dagger is added to your Inventory!
+Stone Dagger is added to your Inventory! (ADD DAGGER)
 You bend down and you take a drink of water
-For now, your thrist is quenched;
-Option 3: Cross the river (1)
+For now, your thrist is quenched; (ADD WATER)
+Option 4: Cross the river (1) ; Walk along the river (2)
+@2-2
+As you keep walking you run into a fork in the river
+Left takes you to the flatlands with wheat.
+Right takes to a canyon with herds of sheep. 
+Option 5: follow the fork left to the flatlands (1); follow the fork right to the canyon (2)
 
+@3-1
+You turn and follow the motion
+something furry and brown runs through the underbrush 
+As you run suddenly you feel exhausted (LOSE WATER) 
+you have not drinking any water and dehydration gets the best of you
+The animals escapes and you find yourself in a grove of trees
+Option 6: Climb the tree to find fruit (1) ; walk back to find water (2)
+@3-2 
+As you walk into the forest you come across a crawling green vine 
+it has purple palm sized fruits dangling from its stem 
+you dont recognize the fruit but it is so tempting 
+Option 7: pick the fruit the eat (1) ; be cautious and move on (2)
 
+@4-1
+The curent is fast and the water is deep.
+You use all you strength to cross the river (LOSE FOOD)
+At the other side of the river a dirt beaten trail appears
+It has an interesting symbol on it, it looks a 3 leaves connected to a stem 
+Option 8: follow the trail (1) ; walk around the forest (2)
+@4-2
+As you walk along the river it comes to a fork
+Left takes you to the flatlands with wheat.
+Right takes to a canyon with herds of sheet. 
+Option 9: follow the fork left to the flatlands (1); follow the fork right to the canyon (2) 
 
+@5-1 
+The land flattens out onto a plain 
+moss covers the floor, it feels squishy 
+as you walk around birds sing and butterflies flutter 
+on a lone tree stump an axe is stuck in the wood 
+you pull the axe out of the wood and add it to your pack 
+Axe added to Inventory! (ADD AXE)
+Option 10: keep walking (1)
+@5-2
+The river flows into the canyon and thins into a stream 
+The canyon has sheets of rocks that curve as they meet on the top.
+In the river something glistens. 
+Its a dagger! 
+Dagger added to Inventory! (ADD DAGGER)
+Option 11: keep walking (1)
 
+@6-1
+using the vines you scale the tree
+at the top you find the jackpot of fruits! 
+Bananas and coconuts hang from branches. 
+Time to feast! (ADD FOOD)
+Option 12: Stay in the tree (1) ; Climb down the tree (2)
+@6-2
+Finally you reach the river again! 
+You drink the water eagerly and you dehydration fades (ADD WATER)
+Now you are ready to move on. 
+Option 13: walk up the river (1) ; return to hunt for food (2)
 
+@7-1
 
+Option 14:
+@7-2
 
+Option 15:
 
-
-
-@1-2
-You stand up and face the forest in front of you
-out of the corner of your eye you stop something move
-Option 2: Chase the movement (1) ; Keep walking through the forest (2)
-Choice:
-@2-1
 
 
