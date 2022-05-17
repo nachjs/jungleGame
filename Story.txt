@@ -52,7 +52,7 @@ Option 8: follow the trail (1) ; walk around the forest (2)
 @4-2
 As you walk along the river it comes to a fork
 Left takes you to the flatlands with wheat.
-Right takes to a canyon with herds of sheet. 
+Right takes to a canyon with herds of sheep. 
 Option 9: follow the fork left to the flatlands (1); follow the fork right to the canyon (2) 
 
 @5-1 
@@ -84,11 +84,95 @@ Now you are ready to move on.
 Option 13: walk up the river (1) ; return to hunt for food (2)
 
 @7-1
-
-Option 14:
+its passion fruit! (ADD FOOD)
+the fruit is so ripe and bursting with flavor 
+now that you are full you its time to continue on your adventure
+you see a dirt trail in front of you that is over grown
+Option 14: follow the trail (1) ; keep exploring the forest (2)
 @7-2
+as you walk through the forest you come across a pond 
+the pond if full of fish and plants 
+on the edge of the pond you spot a turtle
+as you walk toward the turtle it starts talking!
+Option 15: say hi to the turtle (1) ; pet the turtle (2)
 
-Option 15:
+@8-1
+as you walk down the trail the becomes narrower and narrower 
+it winds down hills and then up hill again
+as you trek along you see the plants detailed in the sign 
+they brush by you legs as you continue along
+Option 16: keep walking (1) ; take a break (2)
+@8-2
+as you walk along the outside of the forest you notice lots of fallen tree branches 
+you pick some up to keep as wood for fire (ADD WOOD)
+outside the forest though, you do not get any shade 
+the sun sorches you skin and you become thirsty (LOSE WATER)
+Option 17: keep walking (1) ; take a break (2)
 
+@9-1
+The land flattens out onto a plain 
+moss covers the floor, it feels squishy 
+as you walk around birds sing and butterflies flutter 
+on a lone tree stump an axe is stuck in the wood 
+you pull the axe out of the wood and add it to your pack 
+Axe added to Inventory! (ADD AXE)
+Option 18: keep walking (1)
+@9-2
+The river flows into the canyon and thins into a stream 
+The canyon has sheets of rocks that curve as they meet on the top.
+In the river something glistens. 
+Its a dagger! 
+Dagger added to Inventory! (ADD DAGGER)
+Option 19: keep walking (1) 
+
+@10-1 
+on the flat lands you run into blueberry bushes (ADD FOOD)
+as you look up to the sky you realize dusk is upon you 
+the sky is now a pinkish orange and the sun is low 
+you will need a axe and wood to build a fire to stay warm (LOSE AXE) (LOSE WOOD)
+Option 20: settle for the night (1)
+@10-2 
+n/a
+Option 21: 
+
+@11-1 
+continuing to follow the stream you reach a patch of woodland 
+in the woodland you find sheep and rabbits 
+however you can only have meat or wood
+Option 22: collect meat (1) ; collect wood (2)
+@11-2
+n/a
+Option 23:
+
+@12-1
+As you climb along the tree you find a rickety tree house 
+vines have covered its door making it impossible to enter
+but it seems like the perfect place to shelter from the dangers of the jungle
+Option 24: use dagger to cut down vines (1) ; keep searching 
+@12-2 
+climbing down the tree takes immense strength and balance (LOSE FOOD)
+Crack! suddenly one of the branches snaps and you are free falling 
+you desperately try to grab onto one of the nearby vines 
+but you miss and you fall hard on your back (LOSE HEART)
+ouch! 
+Option 25: keep walking (1) ; take a break (2)
+
+@13-1
+as you walk upstream you hear the roaring sound of water
+just around the bend you see a waterfall rushing down the top of the mountain 
+it 
+Option 26: 
+@13-2
+Option 27: 
+
+@14-1
+Option 28: 
+@14-2
+Option 29: 
+
+@15-1
+Option 30: 
+@15-2
+Option 31: 
 
 
