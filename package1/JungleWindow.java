@@ -2,7 +2,6 @@ package package1;
 
 
 import javax.swing.*;
-import package1.*;
 import package1.JungleGame.ChoiceHandler;
 import java.awt.Color;
 import java.awt.Dimension;
