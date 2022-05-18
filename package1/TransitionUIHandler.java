@@ -3,6 +3,7 @@ package package1;
 
 import javax.swing.ImageIcon;
 import java.awt.Image;
+import java.awt.Color;
 
 public class TransitionUIHandler 
 {
@@ -16,38 +17,36 @@ public class TransitionUIHandler
     public void displayStartScreen()
     {
 
-        jw.textPanel.setVisible(false);
-        jw.text.setVisible(false);
-
-        //hide choices
         jw.button1.setVisible(false);
         jw.button2.setVisible(false);
         jw.button3.setVisible(false);
 
-        //hide hearts
         jw.heartLabel1.setVisible(false);
         jw.heartLabel2.setVisible(false);
         jw.heartLabel3.setVisible(false);
         jw.heartLabel4.setVisible(false);
         jw.heartLabel5.setVisible(false);
 
-        //show button
+        jw.textPanel.setVisible(false);
+        jw.text.setVisible(false);
+
+        //set button visible
         jw.startButton.setVisible(true);
-        // show the start screen
+        
+        //set background visible
+        jw.bg.setIcon(null);
         ImageIcon currImage = new ImageIcon(getClass().getResource("/package1/APCS_JungleHomePage.png"));
         Image image  = currImage.getImage();
         Image newimg = image.getScaledInstance(1200, 800, Image.SCALE_DEFAULT);
         currImage = new ImageIcon(newimg);
+        jw.bg.setBackground(Color.WHITE);
         jw.bg.setIcon(currImage);
-        jw.bg.setVisible(true);
+        jw.gameWindow.add(jw.bg);
+        
+        
 
         
         
-        
-
-        //hide the game screen
-
-        //hide text
         
 
         
@@ -62,6 +61,7 @@ public class TransitionUIHandler
         //show the game screen
 
         //show text
+        
         jw.textPanel.setVisible(true);
         jw.text.setVisible(true);
 
@@ -77,11 +77,14 @@ public class TransitionUIHandler
         jw.heartLabel4.setVisible(true);
         jw.heartLabel5.setVisible(true);
 
+        ImageIcon opaque = new ImageIcon(getClass().getResource("/package1/OpaqueJungle.png"));
+        Image opaqueJungle  = opaque.getImage();
+        Image newOpaque = opaqueJungle.getScaledInstance(1200, 800, Image.SCALE_DEFAULT);
+        opaque = new ImageIcon(newOpaque);
+        jw.gameWindow.setBackground(Color.WHITE);
+        jw.bg.setIcon(opaque);
 
-        ImageIcon currImage = new ImageIcon(new ImageIcon("OpaqueJungle.png").getImage().getScaledInstance(1200, 800, Image.SCALE_DEFAULT));
-        jw.bg.setIcon(currImage);
-        jw.bg.setVisible(true);
+       
     }
-
 
 }
