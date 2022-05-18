@@ -6,37 +6,194 @@ Crash! the leaves around you rustle as you sit up
 You observe your surroundings, a vast jungle, with a river flowing through it
 Your stomach rumbles and you feel the dryness of your mouth
 You don't know how long it has been since you last had a meal
-Option 1: Go towards the river (1) ; Search for food (2)
-Choice: 
+Option 1: Go towards the river (1) ; Search for food (2) 
 
 @1-1
 You make your way to the river bank
 The water flows past your feet, with a powerful current
 Option 2: Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)
-Choice: 
+@1-2
+You stand up and face the forest in front of you
+out of the corner of your eye you stop something move
+Option 3: Chase the movement (1) ; Keep walking through the forest (2)
 
 @2-1
 As you wade through the river you begin to feel somethind graze your foot
 You bend down and notce A Stone Dagger
-Stone Dagger is added to your Inventory!
+Stone Dagger is added to your Inventory! (ADD DAGGER)
 You bend down and you take a drink of water
-For now, your thrist is quenched;
-Option 3: Cross the river (1)
+For now, your thrist is quenched; (ADD WATER)
+Option 4: Cross the river (1) ; Walk along the river (2)
+@2-2
+As you keep walking you run into a fork in the river
+Left takes you to the flatlands with wheat.
+Right takes to a canyon with herds of sheep. 
+Option 5: follow the fork left to the flatlands (1); follow the fork right to the canyon (2)
 
+@3-1
+You turn and follow the motion
+something furry and brown runs through the underbrush 
+As you run suddenly you feel exhausted (LOSE WATER) 
+you have not drinking any water and dehydration gets the best of you
+The animals escapes and you find yourself in a grove of trees
+Option 6: Climb the tree to find fruit (1) ; walk back to find water (2)
+@3-2 
+As you walk into the forest you come across a crawling green vine 
+it has purple palm sized fruits dangling from its stem 
+you dont recognize the fruit but it is so tempting 
+Option 7: pick the fruit the eat (1) ; be cautious and move on (2)
 
+@4-1
+The curent is fast and the water is deep.
+You use all you strength to cross the river (LOSE FOOD)
+At the other side of the river a dirt beaten trail appears
+It has an interesting symbol on it, it looks a 3 leaves connected to a stem 
+Option 8: follow the trail (1) ; walk around the forest (2)
+@4-2
+As you walk along the river it comes to a fork
+Left takes you to the flatlands with wheat.
+Right takes to a canyon with herds of sheep. 
+Option 9: follow the fork left to the flatlands (1); follow the fork right to the canyon (2) 
 
+@5-1 
+The land flattens out onto a plain 
+moss covers the floor, it feels squishy 
+as you walk around birds sing and butterflies flutter 
+on a lone tree stump an axe is stuck in the wood 
+you pull the axe out of the wood and add it to your pack 
+Axe added to Inventory! (ADD AXE)
+Option 10: keep walking (1)
+@5-2
+The river flows into the canyon and thins into a stream 
+The canyon has sheets of rocks that curve as they meet on the top.
+In the river something glistens. 
+Its a dagger! 
+Dagger added to Inventory! (ADD DAGGER)
+Option 11: keep walking (1)
 
+@6-1
+using the vines you scale the tree
+at the top you find the jackpot of fruits! 
+Bananas and coconuts hang from branches. 
+Time to feast! (ADD FOOD)
+Option 12: Stay in the tree (1) ; Climb down the tree (2)
+@6-2
+Finally you reach the river again! 
+You drink the water eagerly and you dehydration fades (ADD WATER)
+Now you are ready to move on. 
+Option 13: walk up the river (1) ; return to hunt for food (2)
 
+@7-1
+its passion fruit! (ADD FOOD)
+the fruit is so ripe and bursting with flavor 
+now that you are full you its time to continue on your adventure
+you see a dirt trail in front of you that is over grown
+Option 14: follow the trail (1) ; keep exploring the forest (2)
+@7-2
+as you walk through the forest you come across a pond 
+the pond if full of fish and plants 
+on the edge of the pond you spot a turtle
+as you walk toward the turtle it starts talking!
+Option 15: say hi to the turtle (1) ; pet the turtle (2)
 
+@8-1
+as you walk down the trail the becomes narrower and narrower 
+it winds down hills and then up hill again
+as you trek along you see the plants detailed in the sign 
+they brush by you legs as you continue along
+Option 16: keep walking (1) ; take a break (2)
+@8-2
+as you walk along the outside of the forest you notice lots of fallen tree branches 
+you pick some up to keep as wood for fire (ADD WOOD)
+outside the forest though, you do not get any shade 
+the sun sorches you skin and you become thirsty (LOSE WATER)
+Option 17: keep walking (1) ; take a break (2)
 
+@9-1
+The land flattens out onto a plain 
+moss covers the floor, it feels squishy 
+as you walk around birds sing and butterflies flutter 
+on a lone tree stump an axe is stuck in the wood 
+you pull the axe out of the wood and add it to your pack 
+Axe added to Inventory! (ADD AXE)
+Option 18: keep walking (1)
+@9-2
+The river flows into the canyon and thins into a stream 
+The canyon has sheets of rocks that curve as they meet on the top.
+In the river something glistens. 
+Its a dagger! 
+Dagger added to Inventory! (ADD DAGGER)
+Option 19: keep walking (1) 
 
+@10-1 
+on the flat lands you run into blueberry bushes (ADD FOOD)
+as you look up to the sky you realize dusk is upon you 
+the sky is now a pinkish orange and the sun is low 
+you will need a axe and wood to build a fire to stay warm (LOSE AXE) (LOSE WOOD)
+Option 20: settle for the night (1)
+@10-2 
+n/a
+Option 21: 
 
+@11-1 
+continuing to follow the stream you reach a patch of woodland 
+in the woodland you find sheep and rabbits 
+however you can only have meat or wood
+Option 22: collect meat (1) ; collect wood (2)
+@11-2
+n/a
+Option 23:
 
-@1-2
-You stand up and face the forest in front of you
-out of the corner of your eye you stop something move
-Option 2: Chase the movement (1) ; Keep walking through the forest (2)
-Choice:
-@2-1
+@12-1
+As you climb along the tree you find a rickety tree house 
+vines have covered its door making it impossible to enter
+but it seems like the perfect place to shelter from the dangers of the jungle
+Option 24: use dagger to cut down vines (1) ; keep searching 
+@12-2 
+climbing down the tree takes immense strength and balance (LOSE FOOD)
+Crack! suddenly one of the branches snaps and you are free falling 
+you desperately try to grab onto one of the nearby vines 
+but you miss and you fall hard on your back (LOSE HEART)
+ouch! 
+Option 25: keep walking (1) ; take a break (2)
+
+@13-1
+as you walk upstream you hear the roaring sound of water
+just around the bend you see a waterfall rushing down the top of a cliff 
+the waterfall is over 20 feet tall and the water is moving fast 
+on top of the cliff sits a small hut which could hide the key
+Option 26: attempt to climb up the mountain (1) ; find the long way around (2)
+@13-2
+As you walk back into the forest to hunt the wind picks up 
+the leaves at your feet begin to rustle 
+and suddenly roots begin to lift 
+the trees are alive! 
+Option 27: stand still and try to hide (1) ; sprint away (2)
+
+@14-1
+as you follow the trail you come across a pond 
+the pond if full of fish and plants 
+on the edge of the pond you spot a turtle
+as you walk toward the turtle it starts talking!
+Option 28: say hi to the turtle (1) ; pet the turtle (2)
+@14-2
+the sun begins to set as you continue to trek across the forest
+it is getting late and the wind has begun to pick up
+you stomach begins to grumble again (LOSE FOOD)
+you collect some wood for a fire (ADD WOOD)
+Option 29: search for food (1) ; start a fire and stay put (2)
+
+@15-1
+the turtle waves back at you with its front foot
+"i am zixuan the turtle
+i only speak in ryhme 
+ask any question
+and i will in time" says the turtle
+Option 30: ask about food (1) ; ask about shelter (2)
+@15-2
+the turtle snaps down on your hand 
+blood pours out of the wound which is 3 inches long (LOSE HEART)
+oh no! you dont have any band aids or gauze on you 
+Option 31: take of your shirt and wrap it (1) rinse it with pond water (2)
 
 
