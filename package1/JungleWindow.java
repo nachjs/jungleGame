@@ -2,7 +2,6 @@ package package1;
 
 
 import javax.swing.*;
-import package1.*;
 import package1.JungleGame.ChoiceHandler;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -11,6 +10,7 @@ import java.awt.Image;
 import java.util.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.Container;
 public class JungleWindow {
     JLabel bg = new JLabel(); 
     JFrame gameWindow;
@@ -19,8 +19,10 @@ public class JungleWindow {
     int hearts = 0;
     String option1, option2, option3;
     JPanel textPanel;
-    JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5;
+    JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5, textLabel;
     JTextArea text;
+    Container background = new Container();
+
 
     private Font normalFont = new Font("Times New Roman", Font.PLAIN, 26);
     
@@ -39,6 +41,7 @@ public class JungleWindow {
 
         //start button 
         startButton = new JButton();
+        startButton.setSize(300, 150);
         startButton.setBounds(450, 500, 300, 150);
         startButton.setText("Ready?");
         startButton.setFont(new Font("Dialog", Font.BOLD, 40));
@@ -55,10 +58,13 @@ public class JungleWindow {
         bg.setBackground(Color.white);
         bg.setIcon(currImage);
 
+        
+
+        
 
        
         gameWindow.setVisible(true);
-
+        startButton.setVisible(true);
 
 
 
@@ -85,7 +91,7 @@ public class JungleWindow {
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameWindow.add(heartLabel1);
         heartLabel1.setSize(500, 300);
-        gameWindow.setVisible(true);
+        
 
         //heart two
 
@@ -100,8 +106,7 @@ public class JungleWindow {
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameWindow.add(heartLabel2);
         heartLabel2.setSize(500, 300);
-        gameWindow.setVisible(true);
-
+        
 
         //heart three
 
@@ -116,7 +121,7 @@ public class JungleWindow {
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameWindow.add(heartLabel3);
         heartLabel3.setSize(500, 300);
-        gameWindow.setVisible(true);
+        
 
         //heart four
 
@@ -131,7 +136,7 @@ public class JungleWindow {
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameWindow.add(heartLabel4);
         heartLabel4.setSize(500, 300);
-        gameWindow.setVisible(true);
+       
 
         //heart five
 
@@ -146,15 +151,14 @@ public class JungleWindow {
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gameWindow.add(heartLabel5);
         heartLabel5.setSize(500, 300);
-        gameWindow.setVisible(true);
+       
 
-        //remove start game button
-        gameWindow.remove(startButton);
+      
 
         //option buttons
         //opti5n button 1
         button1 = new JButton();
-        button1.setBounds(50, 450, 160, 80);
+        button1.setBounds(50, 430, 300, 100);
         button1.addActionListener(ch);
         button1.setActionCommand("choice1");
         button1.setText("Option 1");
@@ -163,7 +167,7 @@ public class JungleWindow {
 
         //option button 2
         button2 = new JButton();
-        button2.setBounds(50, 550, 160, 80);
+        button2.setBounds(50, 550, 300, 100);
         button2.addActionListener(ch);
         button2.setActionCommand("choice2");
         button2.setText("Option 2");
@@ -172,7 +176,7 @@ public class JungleWindow {
 
         //option button 3
         button3 = new JButton();
-        button3.setBounds(50, 650, 160, 80);
+        button3.setBounds(50, 670, 300, 100);
         button3.addActionListener(ch);
         button3.setActionCommand("choice3");
         button3.setText("Option 3");
@@ -182,22 +186,23 @@ public class JungleWindow {
         //text panel
 
         textPanel = new JPanel();
-        textPanel.setBounds(100, 100, 600, 250);
+        textPanel.setBounds(10, 150, 600, 250);
         textPanel.setBackground(Color.white);
         gameWindow.add(textPanel);
 
         //text
 
         text = new JTextArea("This is the main text area");
-        text.setBounds(100, 100, 600, 250);
-        text.setBackground(Color.white);
-        text.setForeground(Color.black);
+        text.setBounds(10, 150, 600, 250);
+        //text.setBackground(Color.white);
         text.setFont(normalFont);
         text.setLineWrap(true);
         text.setWrapStyleWord(true);
         text.setEditable(false);
+        text.setForeground(Color.BLUE);
         gameWindow.add(text);
-    
+
+
 
          //add Hunger bar
         
@@ -231,7 +236,7 @@ public class JungleWindow {
 
         
         //set ui visible
-        gameWindow.setVisible(true);
+       
     }
 
 
