@@ -159,20 +159,41 @@ Option 25: keep walking (1) ; take a break (2)
 
 @13-1
 as you walk upstream you hear the roaring sound of water
-just around the bend you see a waterfall rushing down the top of the mountain 
-it 
-Option 26: 
+just around the bend you see a waterfall rushing down the top of a cliff 
+the waterfall is over 20 feet tall and the water is moving fast 
+on top of the cliff sits a small hut which could hide the key
+Option 26: attempt to climb up the mountain (1) ; find the long way around (2)
 @13-2
-Option 27: 
+As you walk back into the forest to hunt the wind picks up 
+the leaves at your feet begin to rustle 
+and suddenly roots begin to lift 
+the trees are alive! 
+Option 27: stand still and try to hide (1) ; sprint away (2)
 
 @14-1
-Option 28: 
+as you follow the trail you come across a pond 
+the pond if full of fish and plants 
+on the edge of the pond you spot a turtle
+as you walk toward the turtle it starts talking!
+Option 28: say hi to the turtle (1) ; pet the turtle (2)
 @14-2
-Option 29: 
+the sun begins to set as you continue to trek across the forest
+it is getting late and the wind has begun to pick up
+you stomach begins to grumble again (LOSE FOOD)
+you collect some wood for a fire (ADD WOOD)
+Option 29: search for food (1) ; start a fire and stay put (2)
 
 @15-1
-Option 30: 
+the turtle waves back at you with its front foot
+"i am zixuan the turtle
+i only speak in ryhme 
+ask any question
+and i will in time" says the turtle
+Option 30: ask about food (1) ; ask about shelter (2)
 @15-2
-Option 31: 
+the turtle snaps down on your hand 
+blood pours out of the wound which is 3 inches long (LOSE HEART)
+oh no! you dont have any band aids or gauze on you 
+Option 31: take of your shirt and wrap it (1) rinse it with pond water (2)
 
 
