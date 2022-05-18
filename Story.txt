@@ -196,4 +196,76 @@ blood pours out of the wound which is 3 inches long (LOSE HEART)
 oh no! you dont have any band aids or gauze on you 
 Option 31: take of your shirt and wrap it (1) rinse it with pond water (2)
 
+@16-1 
+As you keep walking the sun begins to set 
+the uphill trail is tiring and long (LOSE WATER)
+suddenly your leg begins to itch 
+a rash appears and little red bumps along your calf 
+you connect the dots, "leaves of three let them be" 
+it must be posion ivy. 
+you can resist and begin to scratch 
+white pus begins to appear and bubble up 
+Option 32: rest (1) keep limping (2)
+@16-2
+you sit down in the middle of the trail 
+you start to feel hungry and you realize dusk is coming (LOSE FOOD)
+you comb through the plants looking for any berries 
+as you look through the bushes of plants you hands begin to burn 
+you fingers swell and little red bumps appear 
+you feel your arms begin to swell and bumps start appearing all over you arms 
+then they are on you body 
+Option 33:
+
+@17-1
+Option 34: 
+@17-2
+Option 35:
+
+@18-1 
+Option 36:
+@18-2
+Option 37:
+
+@19-1 
+Option 38:
+@19-2
+Option 39:
+
+@20-1 
+Option 40:
+@20-2
+Option 41:
+
+@21-1 
+Option 42:
+@21-2
+Option 43:
+
+@22-1 
+Option 44:
+@22-2
+Option 45:
+
+@23-1 
+Option 46:
+@23-2
+Option 47:
+
+@24-1 
+Option 48:
+@24-2
+Option 49:
+
+@25-1 
+Option 50:
+@25-2
+Option 51:
+
+@26-1 
+Option 52:
+@26-2
+Option 53:
+
+
+
 
