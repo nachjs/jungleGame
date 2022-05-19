@@ -8,6 +8,7 @@ import java.awt.Color;
 public class TransitionUIHandler 
 {
     JungleWindow jw;
+    String name;
 
     public TransitionUIHandler(JungleWindow currJW)
     {
@@ -53,6 +54,14 @@ public class TransitionUIHandler
        
     }
 
+    public void displayNameScreen()
+    {
+        name = null;
+        jw.startButton.setVisible(false);
+
+         
+    }
+
     public void displayGameScreen()
     {
         //hide the start screen
@@ -94,7 +103,7 @@ public class TransitionUIHandler
 
     public void loseWater()
     {
-        
+
     }
 
     public void gameOver()
