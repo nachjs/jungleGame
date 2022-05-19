@@ -418,21 +418,122 @@ every part of you feels heavy and exhausted, it takes all of you to even move on
 Option 65: continue (1) 
 
 @33-1
-
 Option 66:
 @33-2
 Option 67:
 
 @34-1
-Option 68:
+you approach the sound cautiously and find a watering hole with animals all around it 
+there are plants surrounding the watering hole and insects buzz about 
+you walk toward the herd of animals slowly 
+all at once the animals look at you 
+a giraffe appoaches you bending its neck down to have a better look 
+Option 68: back away (1) ; pet the giraffe (2)
 @34-2
-Option 69:
+you run through the forest away from the animals (LOSE FOOD)
+a root catches on your foot and you trip and fall 
+the hill is steep and you roll down the it
+by the time you reach the bottom your hair is full of leaves and dirt and you are covered in cuts and scraps (LOSE HEART)
+you sit up unsteadily, the head is dizzy from the fall you
+as your vision clears you realize you are near a river that is cold and clear
+Option 69: thread into the water (1); stay near the bank (2)
 
 @35-1
-Option 70:
+you wake to the first drops of rain falling  on your face 
+the tree is not enough shelter to keep to safe from the rain that begins pelting down 
+you stand but your vision flashes black and you realize you are dehydrated 
+Option 70: find shelter first (1) ; find water first (2) 
 @35-2
 Option 71:
 
-// seth the dizzing duck
-// val the jumping jiraffee 
+@36-1 
+you sit down next to the foutain mesmerized by it
+the water is shining and bright it hypotizes you 
+the world around you begins to spin round and round 
+you fall back on the moss and a duck appears in your vision 
+"hello im seth the dizzing duck" it says 
+the voice echos and reverberates around you 
+"i will take you home and grant you one wish if you complete a mission for me" 
+Option 72: continue (1)
+@36-2
+you take anoher sip then another and another 
+the glistening water is addicting
+all of a sudden you being to feel light headed and begin to float
+you flail your arms about as you float higher and higher into the sky 
+your stomach becomes nauseous and you ears pop
+then you are falling, you vomit as you descend (LOSE FOOD)
+you land in a river and get sallowed up by the waves
+Option 73: continue (1) ; continue (2)
+
+@37-1 
+Option 74: 
+@37-2
+Option 75: 
+
+@38-1 
+you use your dagger to hunt a rabbit (LOSE DAGGER) 
+then you feast on the meat (ADD FOOD)
+now full you decide to settle in as the sun begins to set 
+Option 76: sleep in a tree (1) ; sleep under the stars (2)
+@38-2
+with dagger you are able to cut some tree branches (LOSE DAGGER) 
+now with wood you can start a fire to keep you warm for the coming night 
+however fire attracts unwanted attention 
+Option 77: start a fire and keep warm (1) ; no fire to keep a low profile (2)
+
+@39-1 
+Option 78: 
+@39-2 
+Option 79:
+
+@40-1 
+as you walk to the east the land slopes down wheat surrounds you 
+towering at 10 feet high they sway as you walk 
+you walk miles and miles with no end, only following the sun (LOSE WATER)
+in the distance you spot a grassy mountain and trudge along
+Option 80: continue (1)
+@40-2 
+not long as you start west the wheat begin to thin out and then full stop 
+boulders cover the terrain and nests of snakes appear 
+hundreds of snakes! they slither about
+some baske on the rocks others slither about 
+you realize there is no way around the the snakes 
+Option 81: continue (1)
+
+@41-1
+Option 82: 
+@41-2
+Option 83: 
+
+@42-1
+Option 84: 
+@42-2
+Option 85: 
+
+@43-1 
+Option 86: 
+@43-2
+Option 87: 
+
+@44-1 
+you find a sturdy oak tree with low branches and decide to climb into it and settle for the night 
+as you climb the tree a mass on the tree begins to move 
+it shifts slowly and you freeze 
+a pair of yellow eyes open and a long hairy with claws appears 
+as you eyes adjust to the light you realize its a sloth 
+"ni hao [hello]" it says with a grueling slowness
+your years of chinese has now paid off
+Option 88: continue (1)
+@44-2
+you settle under the tree for the night 
+the ground is hard and uncomfortable and you shift around all night 
+the rocks dig into your skin and you only are able to achieve a light sleep 
+Option 89: continue (1)
+
+
+
+// seth the dizzing duck (appears when dizzy)
+// val the jumping jiraffee (spanish)
+// colin the sleepy sloth (chinese)
+//vim the vindictive viper (code)
 
