@@ -202,7 +202,7 @@ suddenly your leg begins to itch
 a rash appears and little red bumps along your calf 
 you connect the dots, "leaves of three let them be" 
 it must be posion ivy. 
-you can resist and begin to scratch 
+you cant resist and begin to scratch 
 white pus begins to appear and bubble up 
 Option 32: rest (1) ; keep limping (2)
 @16-2
@@ -303,15 +303,135 @@ you open you eyes momentarily and all the lights seem ten times brighter than us
 then you fall asleep again 
 in the jungle animals begin to come alive 
 as the sun sets you remain in the same spot under the tree 
-Option 51: (continue (1))
+Option 51: continue (1)
 
 @26-1 
-you reach for the vinne considered a cillluective eaeh period.  
-Option 52:
+you reach up for a vine and begin to climb the wall 
+the vine creaks under your weight as use the foot holes in the rickety wall 
+slowly you ascend up the wall 
+you reach for a vine and suddenly a pack of spiders come rushing out
+they scamper out of the vine coming toward you 
+Option 52: drop from the vine (1) ; try to climb away vine by vine 
 @26-2
-ryan arranges to allow one ot do homework f I can skill anoeter
-Option 53:
+you keep walking and walking as the sun begins to drop 
+it feels the farther you are from the river the thirstier you get (LOSE WATER)
+the sun begins to dip below the horizon and night sets in 
+you realize there is no place of shelter for you 
+Option 53: sleep beneath the star (1) ; look for shelter (2) 
 
+@27-1
+you press yourself to the floor in attempt to hide from the living forest 
+the rock feels hard again your back 
+the trees begin to shift, bending and stretching, almost as waking from a deep slumber 
+your heat is racing and your palms become sweaty
+you close your eyes expecting for the worse 
+then you are in the air, a tree branch lifting you up, up into the air 
+Option 54: play dead (1); flail around (2)
+@27-2
+you run through the forest, cutting through the rising trees 
+a root trips you and you race to stand back up 
+but suddenly a weight presses down on you 
+you try to stand but the weight presses down harder 
+a root wraps around you and pulls you up into the air 
+Option 55: continue (1) 
 
+@28-1
+the turtle waves back at you with its front foot
+"i am zixuan the turtle
+i only speak in ryhme 
+ask any question
+and i will in time" says the turtle
+Option 56: ask about food (1) ; ask about shelter (2)
+@28-2
+the turtle snaps down on your hand 
+blood pours out of the wound which is 3 inches long (LOSE HEART)
+oh no! you dont have any band aids or gauze on you 
+Option 57: take of your shirt and wrap it (1) ; rinse it with pond water (2)
 
+@29-1
+you trek across the forest to no prevail 
+there is no food in sight only trees and trees 
+you settle, hungry under a tree and doze off
+Option 58: contine (1)
+@29-2
+you begin a fire in the clearing but the wind howls blowing the fire out 
+over and over again the fire is blown up (LOSE WOOD)
+in the end you give up and decide to sleep 
+Option 59: continue (1)
+
+@30-1
+" im looking at food" you say as your stomach grumbles
+the turtle looks thoughtful for a moment then replies 
+" walk east to the mountains 
+there you will see 
+a tree full of fruit 
+but beware of leaves of three" 
+you thank the turtle for the advice
+then you look up to the sun to find east
+Option 60: begin walking (1) ; ask another question (2) 
+@30-2
+"im looking for shelter" you say 
+the sun is beginning to set and the night is cold 
+"walk west until you reach a fork 
+there follow the trail right 
+wait until sun down and deepest night
+there you will see a light"
+"in the light there is dangerous shelter 
+for to stay, there is a high price 
+safety will be paid for 
+each night with vice" 
+shaken by the turtle you retreat from the pond 
+Option 61: follow the turtles advice (1) ; stay near the pond 
+
+@31-1
+you take off your shirt and wrap it around your hand to stop the bleeding 
+tie it around you hand and the wound stings 
+the turtle scuttles aways back into the pond 
+you take a seat under a tree as the pain grows 
+as the blood soak your shirt you become light headed 
+the dizziness takes over your body you fall asleep
+Option 62: continue (1) 
+@31-2
+you dunk your hand in the water, you move your hand around trying to clean out the wound
+the red steadily spreads into the water
+the cool water gives a dull sting but it feels nice against your skin 
+little minnows begin to surface in the blood red water and begin to nibble on your skin 
+the pain becomes escrutiating and you remove your hand for the water (LOSE HEART)
+you lie on your back holding your hand up to keep the blood from staining your clothes 
+the sun causes your to sweat profusely but you body is sluggish and unable to move (LOSE WATER)
+Option 63: continue (1)
+
+@32-1
+you find a patch of clearing and sit down relieved
+the dots double then triple,  and cover your entire calf 
+the itch only grows, you need water to soak your wounds 
+you try to remember where there is a pond or river but your mind is groggy 
+nothing comes to mind and your body becomes heavy as if all your bones were lead 
+Option 64: continue (1)
+@32-2
+you leg begins to burn as you walk along the trail 
+the heat only makes it worse, the sweat causing the rash to only itch more (LOSE WATER)
+as you walk you start to hear the sound of water flowing 
+excited you keep pushing forward, the sound of water getting closer and closer 
+every part of you feels heavy and exhausted, it takes all of you to even move one step 
+Option 65: continue (1) 
+
+@33-1
+
+Option 66:
+@33-2
+Option 67:
+
+@34-1
+Option 68:
+@34-2
+Option 69:
+
+@35-1
+Option 70:
+@35-2
+Option 71:
+
+// seth the dizzing duck
+// val the jumping jiraffee 
 
