@@ -9,6 +9,7 @@ public class TransitionUIHandler
 {
     JungleWindow jw;
     String name;
+    public String currText;
 
     public TransitionUIHandler(JungleWindow currJW)
     {
@@ -54,13 +55,6 @@ public class TransitionUIHandler
        
     }
 
-    public void displayNameScreen()
-    {
-        name = null;
-        jw.startButton.setVisible(false);
-
-         
-    }
 
     public void displayGameScreen()
     {
@@ -110,5 +104,6 @@ public class TransitionUIHandler
     {
 
     }
+
 
 }

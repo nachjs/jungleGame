@@ -31,7 +31,7 @@ public class JungleGame
             String choice = event.getActionCommand();
             switch(choice)
             {
-                case "start": tuim.displayNameScreen(); break;
+                case "start": tuim.displayGameScreen(); story.defaultGame(); break;
                 case "choice1": break;
                 case "choice2": break;
                 case "choice3": break;
