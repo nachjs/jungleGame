@@ -201,7 +201,8 @@ public class JungleWindow {
         text.setLineWrap(true);
         text.setWrapStyleWord(true);
         text.setEditable(false);
-        text.setForeground(Color.BLUE);
+        text.setBackground(Color.BLACK);
+        text.setForeground(Color.white);
         gameWindow.add(text);
 
 
@@ -212,20 +213,6 @@ public class JungleWindow {
 
         //add Tools
         
-        //name field
-        textPanel = new JPanel();
-        textPanel.setBounds(10, 150, 600, 250);
-        textPanel.setBackground(Color.white);
-        gameWindow.add(textPanel);
-        text = new JTextArea("This is the main text area");
-        text.setBounds(10, 150, 600, 250);
-        //text.setBackground(Color.white);
-        text.setFont(normalFont);
-        text.setLineWrap(true);
-        text.setWrapStyleWord(true);
-        text.setEditable(false);
-        text.setForeground(Color.BLUE);
-        gameWindow.add(text);
 
         
 

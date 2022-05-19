@@ -1,5 +1,4 @@
-@0-0
-To begin your adventure enter your name!
+
 
 @0-0
 Crash! the leaves around you rustle as you sit up
