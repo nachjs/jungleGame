@@ -87,4 +87,19 @@ public class TransitionUIHandler
        
     }
 
+    public void loseFood()
+    {
+
+    }
+
+    public void loseWater()
+    {
+        
+    }
+
+    public void gameOver()
+    {
+
+    }
+
 }
