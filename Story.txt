@@ -148,7 +148,7 @@ Option 23:
 As you climb along the tree you find a rickety tree house 
 vines have covered its door making it impossible to enter
 but it seems like the perfect place to shelter from the dangers of the jungle
-Option 24: use dagger to cut down vines (1) ; keep searching 
+Option 24: use dagger to cut down vines (1) ; keep searching (2)
 @12-2 
 climbing down the tree takes immense strength and balance (LOSE FOOD)
 Crack! suddenly one of the branches snaps and you are free falling 
@@ -194,7 +194,7 @@ Option 30: ask about food (1) ; ask about shelter (2)
 the turtle snaps down on your hand 
 blood pours out of the wound which is 3 inches long (LOSE HEART)
 oh no! you dont have any band aids or gauze on you 
-Option 31: take of your shirt and wrap it (1) rinse it with pond water (2)
+Option 31: take of your shirt and wrap it (1) ; rinse it with pond water (2)
 
 @16-1 
 As you keep walking the sun begins to set 
@@ -205,7 +205,7 @@ you connect the dots, "leaves of three let them be"
 it must be posion ivy. 
 you can resist and begin to scratch 
 white pus begins to appear and bubble up 
-Option 32: rest (1) keep limping (2)
+Option 32: rest (1) ; keep limping (2)
 @16-2
 you sit down in the middle of the trail 
 you start to feel hungry and you realize dusk is coming (LOSE FOOD)
@@ -213,26 +213,44 @@ you comb through the plants looking for any berries
 as you look through the bushes of plants you hands begin to burn 
 you fingers swell and little red bumps appear 
 you feel your arms begin to swell and bumps start appearing all over you arms 
-then they are on you body 
-Option 33:
+then they are on you body. 
+Option 33: -- dies -- 
 
 @17-1
-Option 34: 
+the forest landscape continues 
+there is no end in sight and so you keep walking along 
+you start hearing the low grunts and moans of animals 
+Option 34: walk toward the sound (1) ; run the other way (2)
 @17-2
-Option 35:
+you find solace under a tree which provides ample shade 
+there is light wind that cools you down 
+you begin to feel sleepy and quickly you fall into a deep sleep 
+Option 35: continue (1)
 
 @18-1 
-Option 36:
+as you walk along you come across a spring 
+the water shoots ups then falls down and is absorbed by the moss 
+it looks crystal clear and perfect for drinking
+you take a sip and suddenly you feel energized (ADD WATER)
+the world around you becomes brighter and colors begin to sing 
+Option 36: take a break (1) ; keep drinking (2)
 @18-2
 Option 37:
 
-@19-1 
-Option 38:
+@19-1
+continuing to follow the stream you reach a patch of woodland 
+in the woodland you find sheep and rabbits 
+however you can only have meat or wood
+Option 38: collect meat (1) ; collect wood (2)
 @19-2
 Option 39:
 
 @20-1 
-Option 40:
+when you awake the next morning shivering (LOSE FOOD)
+your stomach aches from the overdose of blueberries 
+but you still need food to keep you moving
+the flatlands extend for miles to both the east and west 
+Option 40: go east (1) ; go west (2)
 @20-2
 Option 41:
 
@@ -241,10 +259,16 @@ Option 42:
 @21-2
 Option 43:
 
-@22-1 
-Option 44:
+@22-1
+you use your dagger to hunt a rabbit (LOSE DAGGER) 
+then you feast on the meat (ADD FOOD)
+now full you decide to settle in as the sun begins to set 
+Option 44: sleep in a tree (1) ; sleep under the stars (2)
 @22-2
-Option 45:
+with dagger you are able to cut some tree branches (LOSE DAGGER) 
+now with wood you can start a fire to keep you warm for the coming night 
+however fire attracts unwanted attention 
+Option 45: start a fire and keep warm (1) ; no fire to keep a low profile (2)
 
 @23-1 
 Option 46:
@@ -252,18 +276,41 @@ Option 46:
 Option 47:
 
 @24-1 
-Option 48:
+slowly you cut down the vines one by one
+the door is thick with vines and it takes immense strength to cut through all the vines 
+you nick yourself a few times in the process 
+you begin to sweat profusely (LOSE WATER)
+finally all of the vines are out of the way 
+the door has a metal bolt that keeps it shut which has rusted with age 
+ the tree house has an almost ominous feeling to it 
+it makes you uneasy and unsure how to proceed 
+Option 48: continue what you started and open the door (1) ; trust your gut, move on (2)
 @24-2
-Option 49:
+using vines to swing you through the canopy you keep climbing through the trees 
+as you move along you see birds and insects as well as mammals 
+suddenly the tree you are on begins to move 
+the tree is moving like a giant!
+Option 49: climb down the tree (1) ; stay still (2)
 
 @25-1 
-Option 50:
+your head spinning  and all the lights seem ten times brighter than usual 
+you steady yourself against a tree but all the blood rushes to your head 
+the world flashes red then black then white 
+you slowly fall into a drowsy spleep
+Option 50: continue (1) 
 @25-2
-Option 51:
+lying on the floor you go in and out of sleep 
+you open you eyes momentarily and all the lights seem ten times brighter than usual 
+then you fall asleep again 
+in the jungle animals begin to come alive 
+as the sun sets you remain in the same spot under the tree 
+Option 51: (continue (1))
 
 @26-1 
+you reach for the vinne considered a cillluective eaeh period.  
 Option 52:
 @26-2
+ryan arranges to allow one ot do homework f I can skill anoeter
 Option 53:
 
 
