@@ -495,7 +495,7 @@ Option 80: continue (1)
 not long as you start west the wheat begin to thin out and then full stop 
 boulders cover the terrain and nests of snakes appear 
 hundreds of snakes! they slither about
-some baske on the rocks others slither about 
+some bask on the rocks others slither about 
 you realize there is no way around the the snakes 
 Option 81: continue (1)
 
@@ -889,25 +889,122 @@ the meat and you belly makes you content and fall alseep easily thinking about h
 Opetion 153: continue (1) 
 
 @77-1 
-
-Option 154: 
-@77-2 
-Opetion 155: 
+with the wood you create a little circle 
+the fire crackles to light and it warms you up 
+suddenly the hairs on your arms stand up and the wind begins to howl 
+the night makes you uneasy
+Option 154: continue (1)
+@77-2
+you decided that fire might attract predators and decide against it 
+you find a low hanging tree with a grassy underbrush and decided to settle there 
+you roll around, listening to the sound of crickets 
+finally you fall into a light sleep  
+Option 155: continue (1)
 
 @78-1 
 Option 156: 
 @78-2 
-Opetion 157: 
+Option 157: 
 
 @79-1 
 Option 158: 
 @79-2 
-Opetion 159: 
+Option 159: 
 
 @80-1 
-Option 160: 
+the morning passes, then noon, now the afternoon heat hits your body 
+you are hungry and tired, dehydrated too (LOSE FOOD) 
+but the grassy green mountains head of you call your name 
+you keep moving each step slower than before, each breath more ragged than before 
+as the tall grass begins to thin you wonder how much farther to the mountains 
+Option 160: keep walking (1) ; take a break (2) 
 @80-2 
-Opetion 161: 
+Option 161: 
+
+@81-1 
+you contemplate how to get across the nest without being bitten 
+you figure that the best plan it just to run across as fast as possible 
+preparing to run across the nest of snakes your heart rate increases and you palms are sweaty 
+this is your last chance to retrace your steps but across the nest lies uknown treasure 
+Option 156: return to the wheat fields (1) ; risk it all (2) 
+@81-2 
+Option 157: 
+
+@82-1 
+Option 158: 
+@82-2 
+Option 159: 
+
+@83-1 
+Option 156: 
+@83-2 
+Option 157: 
+
+@84-1 
+Option 158: 
+@84-2 
+Option 159: 
+
+@85-1 
+Option 156: 
+@85-2 
+Option 157: 
+
+@86-1 
+Option 158: 
+@86-2 
+Option 159: 
+
+@87-1 
+Option 156: 
+@87-2 
+Option 157: 
+
+@88-1 
+"ni hao [hello]" you respond back to the sloth 
+it slowly ambles toward you 
+"wo de ming zi shi colin [my name is colin]" 
+"ni xiang hui jia shi bu shi [you want to go home dont you?]" 
+the pace of conversation is so slow you almost roll your eyes 
+"shi de [yes]" i reply, nodding 
+"hui da wo yi ge wen ti ni jiu ke yi hui jia [answer me one question and you can go home]" the sloth says 
+Option 158: answer the sloths question (1); move on (2) 
+@88-2 
+Option 159: 
+
+@89-1 
+in the night you suddenly are jolted awake by the sound of howling 
+wolves! 
+you scramble to sit up and find where the howling is originating from but it seems to come from all around
+you wait for your eyes to adjust to the darkeness but you do not see the wolves 
+you hear the wolves again
+Option 156: stay put (1) ; climb a tree (2) 
+@89-2 
+Option 157: 
+
+@90-1 
+golden eyes surround you and you realize you are dinner 
+you reach for your dagger but its no longer there 
+you are on your own now with 4 pairs of eyes surrounding you  
+Option 158: fight (1) ; flight (2) 
+@90-2 
+Option 159: 
+
+@91-1 
+you wake up the morning when the sun begins to rise 
+you look around and see foot prints of animals nearby 
+you realize they were wolves! thank god you did not light that fire 
+you stand up and look around the woodlands 
+Option 156: keep explore the woods (1) ; find food (2) 
+@91-2 
+Option 157: 
+
+@92-1 
+Option 158: 
+@92-2 
+Option 159: 
+
+
 // seth the dizzing duck (appears when dizzy)
 // val the galloping giraffee (spanish)
 // colin the sleepy sloth (chinese)
