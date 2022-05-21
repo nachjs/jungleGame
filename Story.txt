@@ -563,7 +563,7 @@ you free fall through the leaves of the tree
 the bats follow you and you scream in pain
 Option 96: try to grab a tree branch (1) ; grab your dagger (2)
 @48-2
-you move around the tree house and continue to scale the tree upward
+you move around the tree house and continue to scale the tree upwar
 each step becomes increasing precarious as the branches thin out 
 something moves in your periferial vision and you freeze 
 a bright orange beak peaks out of the tree and its a toucan!
@@ -616,21 +616,40 @@ your hands release from the vine in the shock of pain and you begin to fall
 Option 105: continue (1)
 
 @53-1 
-Option 106: 
+you make camp next next to the wall as it gives you some coverage against the forest 
+the grass is rather soft so you fall asleep easily under the twinkling light 
+Option 106: wake up (1)
 @53-2
-Option 107:
+you walk along the length of the wall searching for shelter 
+along the way you collect some tree branches to save for a fire (ADD WOOD)
+finally you come across a slightly shelter area 
+the vines from the wall have climbed off the wall, connecting to a nearby tree to create a makeshift roof 
+the ground of it is rough through, but the roof protects you from the chance of rain 
+Option 107: settle down (1) ; keep searching 
 
 @54-1 
-Option 106: 
+squeezing your eyes shut you let your body go limp in the grasp of the tree branch 
+maybe you will let you go if the tree thinks you are good as dead 
+but you remain in the air, body tossing and turning as the army of tree continues its trek 
+the around you begins to loosen but when you open your eyes just a sliver you realize you are over 30 feet off the grod 
+but if you dont escape now then when else will you get the chance? 
+Option 108: attempt to escape (1) ; stay frozen 
 @54-2
-Option 107:
+you flail you arms and legs, kicking and punches the bark of the tree branch 
+but to no prevail 
+the grip the tree branch has over you is impossible to break free of with just hands and feet (1)
+Option 109: use your weapons to fight the beast (1); use strategy to kill 
 
 @55-1 
-Option 106: 
+you body feels light all of sudden while you float into the air 
+you swing back and forth as you drive to school is crushed under the weight of the stock 
+then supdern it happens in a school bus 
+Option 110: 
 @55-2
-Option 107:
+Option 111:
 
 @56-1 
+
 Option 106: 
 @56-2
 Option 107:
