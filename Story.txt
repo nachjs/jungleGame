@@ -529,7 +529,131 @@ the ground is hard and uncomfortable and you shift around all night
 the rocks dig into your skin and you only are able to achieve a light sleep 
 Option 89: continue (1)
 
+@45-1
+with the wood you create a little circle 
+the fire crackles to light and it warms you up 
+suddenly the hairs on your arms stand up and the wind begins to howl 
+the night makes you uneasy
+Option 90: continue (1)
+@45-2
+you decided that fire might attract predators and decide against it 
+you find a low hanging tree with a grassy underbrush and decided to settle there 
+you roll around, listening to the sound of crickets 
+finally you fall into a light sleep  
+Option 91: continue (1)
 
+@46-1
+Option 92: 
+@46-2
+Option 93:
+
+@47-1
+Option 94: 
+@47-2
+Option 95:
+
+@48-1
+the door creaks open slowly then swings open completely 
+a rush of bats appear, squealing and shrieking 
+you stumble backward and the bats continue to rush at you
+they bit at your skin as you backpedal 
+you skin begins to blister, there must be over a hundred bats surrounding darkening your sight 
+all of the sudden you right foot slips, you fall back 
+you free fall through the leaves of the tree 
+the bats follow you and you scream in pain
+Option 96: try to grab a tree branch (1) ; grab your dagger (2)
+@48-2
+you move around the tree house and continue to scale the tree upward
+each step becomes increasing precarious as the branches thin out 
+something moves in your periferial vision and you freeze 
+a bright orange beak peaks out of the tree and its a toucan!
+Option 97: approach the toucan (1) ; climb away from the toucan (2) 
+
+@49-1
+you grab a vine and try to slide down the moving beast 
+as you try to reach the forest floor you feel something grab at your waist 
+a tree branch secures itself around you waist holding you into place 
+you are stuck now! 
+Option 98: continue (1) 
+@49-2
+you press your body against the trunk of the tree, trying to hang on as the tree beings to move 
+the giant trees around you all begin to move, their vines swinging wildly back and forth 
+one vine almost hits your face and you breathe a sigh of relief when it doesnt 
+holding onto the tree you close you eyes, as the army of trees move in unison 
+each step rings in your ears and the motion causes you to be feel sick 
+Option 99: continue (1)
+
+@50-1
+you do not wake from this sleep
+under the tree you remain in a coma and slowly your body shuts down 
+the forest consumes you and within a years time it is as if you never there at all 
+Option 100: --dies--
+@50-2
+Option 101:
+
+@51-1
+you wake up from a deep slumber, you feel dehydrated and hunger (LOSE FOOD) (LOSE WATER)
+how many hours have passed? days? weeks? 
+the accident comes back in bits and pieces and you remember your hard fall 
+you roll over and a sharp pain in your leg stops you
+Option 102: sit up (1) ; crawl under the tree (2)
+@51-2
+Option 103:
+
+@52-1
+you drop from the vine in a frenzy and fall on the grass below
+thankfully the drop is light and the grass is soft 
+you see the spider crawl across the wall and you quickly retreat from the wall 
+Option 104: continue (1)
+@52-2
+you reach for the next vine then the next 
+but the spider scamper out faster and faster 
+there must be over a thousand! 
+you hands become sweaty and spiders begin to crawl onto you 
+grabbing the next vine you realize you are leaning over the river 
+a prick of pain travels up your arm as the spiders begin to sting you
+your hands release from the vine in the shock of pain and you begin to fall
+Option 105: continue (1)
+
+@53-1 
+Option 106: 
+@53-2
+Option 107:
+
+@54-1 
+Option 106: 
+@54-2
+Option 107:
+
+@55-1 
+Option 106: 
+@55-2
+Option 107:
+
+@56-1 
+Option 106: 
+@56-2
+Option 107:
+
+@57-1 
+Option 106: 
+@57-2
+Option 107:
+
+@58-1 
+Option 106: 
+@58-2
+Option 107:
+
+@59-1 
+Option 106: 
+@59-2
+Option 107:
+
+@60-1 
+Option 106: 
+@60-2
+Option 107:
 
 // seth the dizzing duck (appears when dizzy)
 // val the jumping jiraffee (spanish)
