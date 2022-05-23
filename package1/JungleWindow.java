@@ -20,7 +20,7 @@ public class JungleWindow {
     int hearts = 0;
     String option1, option2, option3;
     JPanel textPanel;
-    JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5, textLabel;
+    JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5, textLabel, toolLabel;
     JTextArea text;
     Container background = new Container();
     Scanner scan = new Scanner(System.in);
@@ -187,10 +187,7 @@ public class JungleWindow {
 
         //text panel
 
-        textPanel = new JPanel();
-        textPanel.setBounds(10, 150, 600, 250);
-        textPanel.setBackground(Color.white);
-        gameWindow.add(textPanel);
+
 
         //text
 
@@ -201,8 +198,8 @@ public class JungleWindow {
         text.setLineWrap(true);
         text.setWrapStyleWord(true);
         text.setEditable(false);
-        text.setBackground(Color.BLACK);
-        text.setForeground(Color.white);
+        text.setBackground(Color.white);
+        text.setForeground(Color.BLACK);
         gameWindow.add(text);
 
 
@@ -212,6 +209,24 @@ public class JungleWindow {
         //add Thirst bar
 
         //add Tools
+        ImageIcon dagger = new ImageIcon(getClass().getResource("/package1/APCS_JungleDagger.png"));
+        Image daggerImage  = dagger.getImage();
+        Image newDagger = daggerImage.getScaledInstance(100, 200, Image.SCALE_DEFAULT);
+        dagger = new ImageIcon(newDagger);
+
+        toolLabel = new JLabel(); 
+        gameWindow.getContentPane();
+        toolLabel.setIcon(dagger);
+        Dimension size6 = toolLabel.getPreferredSize();
+        toolLabel.setBounds(1000, -35, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(toolLabel);
+        toolLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(toolLabel);
+        toolLabel.setSize(500, 300);
+        toolLabel.setVisible(false);
+        
         
 
         

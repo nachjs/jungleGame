@@ -18,7 +18,7 @@ Option 3: Chase the movement (1) ; Keep walking through the forest (2)
 
 @2-1
 As you wade through the river you begin to feel somethind graze your foot
-You bend down and notce A Stone Dagger
+You bend down and notice A Stone Dagger
 Stone Dagger is added to your Inventory! (ADD DAGGER)
 You bend down and you take a drink of water
 For now, your thrist is quenched; (ADD WATER)

@@ -29,7 +29,6 @@ public class TransitionUIHandler
         jw.heartLabel4.setVisible(false);
         jw.heartLabel5.setVisible(false);
 
-        jw.textPanel.setVisible(false);
         jw.text.setVisible(false);
 
         //set button visible
@@ -65,7 +64,6 @@ public class TransitionUIHandler
 
         //show text
         
-        jw.textPanel.setVisible(true);
         jw.text.setVisible(true);
 
         //show choices
@@ -86,6 +84,7 @@ public class TransitionUIHandler
         opaque = new ImageIcon(newOpaque);
         jw.gameWindow.setBackground(Color.WHITE);
         jw.bg.setIcon(opaque);
+        
 
        
     }
@@ -103,6 +102,11 @@ public class TransitionUIHandler
     public void gameOver()
     {
 
+    }
+    
+    public void displayDagger()
+    {
+        jw.toolLabel.setVisible(true);
     }
 
 
