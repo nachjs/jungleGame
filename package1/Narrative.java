@@ -53,6 +53,9 @@ public class Narrative
             case "walk back": riverText(); break;
             case "check the tree": climbedTreeChoice(); break;
             case "move on": pondSectionText(); break;
+            case "riverSection": riverCrossChoice(); break;
+            case "cross the river": movementSection(); break;
+            case "walk to the fields": pondSectionText(); break;
 
         }
     }
@@ -62,6 +65,20 @@ public class Narrative
     
 
    
+
+    private void riverCrossChoice()
+    {
+        jWindow.button1.setText("Cross the river");
+        jWindow.button2.setText("Walk along the river");
+        jWindow.button3.setText("");
+        currText = "Option 4: Cross the river (1) ; Walk along the river (2)";
+        jWindow.text.setText(currText);
+
+        jGame.pos1 = "cross the river";
+        jGame.pos2 = "walk to the fields";
+        jGame.pos3 = "";
+
+    }
 
     public void forageSection()
     {   
@@ -81,7 +98,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "You make your way to the river bank \n The water flows past your feet, with a powerful current";
+        currText = "You make your way to t he river bank \n The water flows past your feet, with a powerful current";
         jWindow.text.setText(currText);
         
         jGame.pos1 = "riverPond";
@@ -192,12 +209,12 @@ public class Narrative
 
     private void movementSection()
     {
-        jWindow.button1.setText("Climb the tree");
-        jWindow.button2.setText("Walk back");
+        jWindow.button1.setText(">");
+        jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "Option 6: Climb the tree to find fruit (1) ; walk back to find water (2)";
+        currText = "As you walk into the forest you come across a crawling green vine\nit has purple palm sized fruits dangling from its stem\nyou dont recognize the fruit but it is so tempting ";
         jWindow.text.setText(currText);
-
+  
         jGame.pos1 = "climb the tree";
         jGame.pos2 = "walk back";
         jGame.pos3 = "";
@@ -207,17 +224,17 @@ public class Narrative
 
     private void climbSectionText()
     {
-        jWindow.button1.setText(">");
-        jWindow.button2.setText( "");
-        jWindow.button3.setText("");
-        currText = "As you walk into the forest you come across a crawling green vine\nit has purple palm sized fruits dangling from its stem\nyou dont recognize the fruit but it is so tempting ";
-        jWindow.text.setText(currText);
         
+        jWindow.button1.setText("Climb the tree");
+        jWindow.button2.setText("Walk back");
+        jWindow.button3.setText("");
+        currText = "Option 6: Climb the tree to find fruit (1) ; walk back to find water (2)";
+        jWindow.text.setText(currText);
         jGame.pos1 = "check the tree";
         jGame.pos2 = "";
         jGame.pos3 = "";   
     }
-    
+
     private void climbedTreeChoice()
     {
         jWindow.button1.setText("pick the fruit");
