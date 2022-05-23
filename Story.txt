@@ -381,7 +381,7 @@ for to stay, there is a high price
 safety will be paid for 
 each night with vice" 
 shaken by the turtle you retreat from the pond 
-Option 61: follow the turtles advice (1) ; stay near the pond 
+Option 61: follow the turtles advice (1) ; stay near the pond (2)
 
 @31-1
 you take off your shirt and wrap it around your hand to stop the bleeding 
@@ -417,21 +417,596 @@ every part of you feels heavy and exhausted, it takes all of you to even move on
 Option 65: continue (1) 
 
 @33-1
-
 Option 66:
 @33-2
 Option 67:
 
 @34-1
-Option 68:
+you approach the sound cautiously and find a watering hole with animals all around it 
+there are plants surrounding the watering hole and insects buzz about 
+you walk toward the herd of animals slowly 
+all at once the animals look at you 
+a giraffe appoaches you bending its neck down to have a better look 
+Option 68: back away (1) ; pet the giraffe (2)
 @34-2
-Option 69:
+you run through the forest away from the animals (LOSE FOOD)
+a root catches on your foot and you trip and fall 
+the hill is steep and you roll down the it
+by the time you reach the bottom your hair is full of leaves and dirt and you are covered in cuts and scraps (LOSE HEART)
+you sit up unsteadily, the head is dizzy from the fall you
+as your vision clears you realize you are near a river that is cold and clear
+Option 69: tread into the water (1); stay near the bank (2)
 
 @35-1
-Option 70:
+you wake to the first drops of rain falling  on your face 
+the tree is not enough shelter to keep to safe from the rain that begins pelting down 
+you stand but your vision flashes black and you realize you are dehydrated 
+Option 70: find shelter first (1) ; find water first (2) 
 @35-2
 Option 71:
 
-// seth the dizzing duck
-// val the jumping jiraffee 
+@36-1 
+you sit down next to the foutain mesmerized by it
+the water is shining and bright it hypotizes you 
+the world around you begins to spin round and round 
+you fall back on the moss and a duck appears in your vision 
+"hello im seth the dizzing duck" it says 
+the voice echos and reverberates around you 
+"i will take you home and if you can answer these questions" 
+Option 72: continue (1)
+@36-2
+you take anoher sip then another and another 
+the glistening water is addicting
+all of a sudden you being to feel light headed and begin to float
+you flail your arms about as you float higher and higher into the sky 
+your stomach becomes nauseous and you ears pop
+then you are falling, you vomit as you descend (LOSE FOOD)
+you land in a river and get sallowed up by the waves
+Option 73: continue (1) ; continue (2)
+
+@37-1 
+Option 74: 
+@37-2
+Option 75: 
+
+@38-1 
+you use your dagger to hunt a rabbit (LOSE DAGGER) 
+then you feast on the meat (ADD FOOD)
+now full you decide to settle in as the sun begins to set 
+Option 76: sleep in a tree (1) ; sleep under the stars (2)
+@38-2
+with dagger you are able to cut some tree branches (LOSE DAGGER) 
+now with wood you can start a fire to keep you warm for the coming night 
+however fire attracts unwanted attention 
+Option 77: start a fire and keep warm (1) ; no fire to keep a low profile (2)
+
+@39-1 
+Option 78: 
+@39-2 
+Option 79:
+
+@40-1 
+as you walk to the east the land slopes down wheat surrounds you 
+towering at 10 feet high they sway as you walk 
+you walk miles and miles with no end, only following the sun (LOSE WATER)
+in the distance you spot a grassy mountain and trudge along
+Option 80: continue (1)
+@40-2 
+not long as you start west the wheat begin to thin out and then full stop 
+boulders cover the terrain and nests of snakes appear 
+hundreds of snakes! they slither about
+some bask on the rocks others slither about 
+you realize there is no way around the the snakes 
+Option 81: continue (1)
+
+@41-1
+Option 82: 
+@41-2
+Option 83: 
+
+@42-1
+Option 84: 
+@42-2
+Option 85: 
+
+@43-1 
+Option 86: 
+@43-2
+Option 87: 
+
+@44-1 
+you find a sturdy oak tree with low branches and decide to climb into it and settle for the night 
+as you climb the tree a mass on the tree begins to move 
+it shifts slowly and you freeze 
+a pair of yellow eyes open and a long hairy with claws appears 
+as you eyes adjust to the light you realize its a sloth 
+"ni hao [hello]" it says with a grueling slowness
+your years of chinese has now paid off
+Option 88: continue (1)
+@44-2
+you settle under the tree for the night 
+the ground is hard and uncomfortable and you shift around all night 
+the rocks dig into your skin and you only are able to achieve a light sleep 
+Option 89: continue (1)
+
+@45-1
+with the wood you create a little circle 
+the fire crackles to light and it warms you up 
+suddenly the hairs on your arms stand up and the wind begins to howl 
+the night makes you uneasy
+Option 90: continue (1)
+@45-2
+you decided that fire might attract predators and decide against it 
+you find a low hanging tree with a grassy underbrush and decided to settle there 
+you roll around, listening to the sound of crickets 
+finally you fall into a light sleep  
+Option 91: continue (1)
+
+@46-1
+Option 92: 
+@46-2
+Option 93:
+
+@47-1
+Option 94: 
+@47-2
+Option 95:
+
+@48-1
+the door creaks open slowly then swings open completely 
+a rush of bats appear, squealing and shrieking 
+you stumble backward and the bats continue to rush at you
+they bit at your skin as you backpedal 
+you skin begins to blister, there must be over a hundred bats surrounding darkening your sight 
+all of the sudden you right foot slips, you fall back 
+you free fall through the leaves of the tree 
+the bats follow you and you scream in pain
+Option 96: try to grab a tree branch (1) ; grab your dagger (2)
+@48-2
+you move around the tree house and continue to scale the tree upwar
+each step becomes increasing precarious as the branches thin out 
+something moves in your periferial vision and you freeze 
+a bright orange beak peaks out of the tree and its a toucan!
+Option 97: approach the toucan (1) ; climb away from the toucan (2) 
+
+@49-1
+you grab a vine and try to slide down the moving beast 
+as you try to reach the forest floor you feel something grab at your waist 
+a tree branch secures itself around you waist holding you into place 
+you are stuck now! 
+Option 98: continue (1) 
+@49-2
+you press your body against the trunk of the tree, trying to hang on as the tree beings to move 
+the giant trees around you all begin to move, their vines swinging wildly back and forth 
+one vine almost hits your face and you breathe a sigh of relief when it doesnt 
+holding onto the tree you close you eyes, as the army of trees move in unison 
+each step rings in your ears and the motion causes you to be feel sick 
+Option 99: continue (1)
+
+@50-1
+you do not wake from this sleep
+under the tree you remain in a coma and slowly your body shuts down 
+the forest consumes you and within a years time it is as if you never there at all 
+Option 100: --dies--
+@50-2
+Option 101:
+
+@51-1
+you wake up from a deep slumber, you feel dehydrated and hunger (LOSE FOOD) (LOSE WATER)
+how many hours have passed? days? weeks? 
+the accident comes back in bits and pieces and you remember your hard fall 
+you roll over and a sharp pain in your leg stops you
+Option 102: sit up (1) ; crawl under the tree (2)
+@51-2
+Option 103:
+
+@52-1
+you drop from the vine in a frenzy and fall on the grass below
+thankfully the drop is light and the grass is soft 
+you see the spider crawl across the wall and you quickly retreat from the wall 
+Option 104: continue (1)
+@52-2
+you reach for the next vine then the next 
+but the spider scamper out faster and faster 
+there must be over a thousand! 
+you hands become sweaty and spiders begin to crawl onto you 
+grabbing the next vine you realize you are leaning over the river 
+a prick of pain travels up your arm as the spiders begin to sting you
+your hands release from the vine in the shock of pain and you begin to fall
+Option 105: continue (1)
+
+@53-1 
+you make camp next next to the wall as it gives you some coverage against the forest 
+the grass is rather soft so you fall asleep easily under the twinkling light 
+Option 106: wake up (1)
+@53-2
+you walk along the length of the wall searching for shelter 
+along the way you collect some tree branches to save for a fire (ADD WOOD)
+finally you come across a slightly shelter area 
+the vines from the wall have climbed off the wall, connecting to a nearby tree to create a makeshift roof 
+the ground of it is rough through, but the roof protects you from the chance of rain 
+Option 107: settle down (1) ; keep searching 
+
+@54-1 
+squeezing your eyes shut you let your body go limp in the grasp of the tree branch 
+maybe you will let you go if the tree thinks you are good as dead 
+but you remain in the air, body tossing and turning as the army of tree continues its trek 
+the around you begins to loosen but when you open your eyes just a sliver you realize you are over 30 feet off the grod 
+but if you dont escape now then when else will you get the chance? 
+Option 108: attempt to escape (1) ; stay frozen 
+@54-2
+you flail you arms and legs, kicking and punches the bark of the tree branch 
+but to no prevail 
+the grip the tree branch has over you is impossible to break free of with just hands and feet (1)
+Option 109: use your weapons to fight the beast (1); use strategy to kill 
+
+@55-1 
+you body feels light all of sudden while you float into the air 
+you swing back and forth and you feel nauseous
+you try to keep still so the grip around your torso will loosen but it remains firm 
+Option 110: try to escape (1) ; talk to the tree (2) 
+@55-2
+Option 111:
+
+@56-1 
+" im looking at food" you say as your stomach grumbles
+the turtle looks thoughtful for a moment then replies 
+" walk east to the mountains 
+there you will see 
+a tree full of fruit 
+but beware of leaves of three" 
+you thank the turtle for the advice
+then you look up to the sun to find east
+Option 112: begin walking (1) ; ask another question (2) 
+@56-2:
+"im looking for shelter" you say 
+the sun is beginning to set and the night is cold 
+"walk west until you reach a fork 
+there follow the trail right 
+wait until sun down and deepest night
+there you will see a light"
+"in the light there is dangerous shelter 
+for to stay, there is a high price 
+safety will be paid for 
+each night with vice" 
+shaken by the turtle you retreat from the pond 
+Option 113: follow the turtles advice (1) ; stay near the pond 
+
+@57-1 
+you take off your shirt and wrap it around your hand to stop the bleeding 
+tie it around you hand and the wound stings 
+the turtle scuttles aways back into the pond 
+you take a seat under a tree as the pain grows 
+as the blood soak your shirt you become light headed 
+the dizziness takes over your body you fall asleep
+Option 114: continue (1)
+@57-2
+you dunk your hand in the water, you move your hand around trying to clean out the wound
+the red steadily spreads into the water
+the cool water gives a dull sting but it feels nice against your skin 
+little minnows begin to surface in the blood red water and begin to nibble on your skin 
+the pain becomes escrutiating and you remove your hand for the water (LOSE HEART)
+you lie on your back holding your hand up to keep the blood from staining your clothes 
+the sun causes your to sweat profusely but you body is sluggish and unable to move (LOSE WATER)
+Option 115: continue (1) 
+@58-1 
+in your slumber your dream of home, your comfortable bed and warm blankets 
+as if magically a duck appears in your vision and begins floating in your dream 
+"hello im seth the dizzing duck" it says 
+the voice echos and reverberates around you 
+"i will take you home and if you can answer these questions" 
+are you hallucinating? 
+Option 116: accept the mission (1) ; continue to sleep (2) 
+@58-2
+Option 117:
+
+@59-1
+
+blue lips, toes and fingers
+your body temperature falls below 37 C then below 35 C 
+sleep becomes unconsciousness 
+somewhere in the middle of the night your body loses its battle to the weather 
+Option 118: --dies--
+@59-2
+Option 119:
+
+@60-1
+you begin to begin your trek east, against the falling sun 
+you collect some wood along the way for a fire later (ADD WOOD)
+"beware leaves of three" your repeat to yourself 
+soon you come across a dirt beaten trail  
+Option 120: follow the trail (1) ; keep walking based on the sun (2) 
+@60-2
+before you start east you decide to see if the turtle will answer your another question 
+"how should i find my way home?" i ask 
+the turtle cranes its head to get a better look at your 
+"must you ask such hard questions? 
+now that you are here you must roam
+you must survive the challenges 
+before you can find your way home"
+there are two ways 
+both are difficult to achieve 
+i can only tell you one
+which would you like to recieve" 
+Option 121: option 1 (1) ; option 2 (2)
+
+@61-1 
+you follow the setting sun west your eyes squinting to see what is in front of you 
+even with the sun setting the air still remains stifling hot and you sweat profusely (LOSE WATER)
+finally you reach the trail that the turtle was taking about 
+"follow the trail right" you say to yourself and begin on the trek down the right fork 
+your stomach grumbles and your crave fresh water 
+Option 122: take a detour to find food (1) ; follow the turtles words (2)
+@61-2 
+you stay near the pond dumbfounded by the turtles words 
+it had said shelter was could at a high price 
+what did that even mean? 
+as the sun sets lower and lower behind the horizon you realize you have to make a choice before it gets too dark
+Opetion 123: settle near the pond (1) ; follow the turtles words (2)
+
+@62-1 
+you wake up drowsily and wonder what time is it 
+the sun is on the horizon and the sky is partially lit
+you remember falling alseep sometime in the afternoon, was it dusk now? or dawn? 
+you realize you are shirtless and remember the wound on your hand 
+it you squint at it in the low light and the entire shirt is soaked in red 
+by now the blood has hardened and the shirt has creased unpleastantly 
+Option 124: remove the shirt (1) ; keep the shirt around the wound (2) 
+@62-2 
+Opetion 125:
+
+@63-1 
+you fade in and out of sleep the sun still beating down on your body 
+you feel thirsty and hungry but your body is weak and your hand throbs (LOSE WATER) (LOSE FOOD)
+you want to move to the shade but you limbs feel like lead 
+you turn your head to look at your wounded hand 
+a thin trickle of blood still flows from the wound but most of the wound has dried and a scab is forming 
+Option 126: continue (1)
+@63-2
+Opetion 127: 
+
+@64-1
+you try to stand up again, determined to find water but your legs feel like they are on fire 
+your muscles are weak and the growing rash makes your skin fester 
+all you can do is remain seated in the clearing 
+the sun begins to dim and slowly you fall into an uneasy sleep, the itching on your leg stopping you from true peace 
+Option 128: continue (1) ; continue (2) 
+@64-2 
+Opetion 129: 
+
+@65-1 
+the pain is excruciating but step after step you make it closer and closer to the sound of flowing water 
+you lower yourself into a crawling position to save energy 
+it must have taken you over any hour to walk 100 feet 
+you look down and the rash has started to cover your arms too 
+Option 130: find a short cut to the water (1) ; go your original route (2) 
+@65-2 
+Opetion 131: 
+
+@66-1 
+Option 132: 
+@66-2 
+Opetion 133: 
+
+@67-1 
+Option 134: 
+@67-2 
+Opetion 135: 
+
+@68-1 
+you back away from the beast slowly, its long neck follow you 
+suddenly the giffafe gallops to create a small circle and words appear in the dirt 
+"hola, me llamo val the galloping giraffe [hello my name is val the galloping giffafe]" is transcribed in the dirt 
+you look down at the writing amazed
+you grab a stick and decide to write something in return 
+Option 136: greet the giraffe (1) ; ask a question (2) 
+@68-2 
+you reach out tenderly to pet the head of the giraffe 
+the giffafe nuzzles it head snout again you open hand 
+then it straightens and you gallops in a small circle, instead the circle words appear 
+"hola, me llamo val the galloping giraffe [hello my name is val the galloping giffafe]" is transcribed in the dirt 
+then it lowers its hind legs as if offering you a ride 
+Opetion 137: stay where you are (1) ; hop on the giraffe (2) 
+
+@69-1 
+you tread into the water and the water feels so nice against your skin 
+you wash yourself clean of all the dirt and debris stuck to your skin and hair 
+you drink some of the crystal clear water and your body feels rehydrated once more (ADD WATER)
+in the water your spot silver scaled fish moving down stream 
+Option 138: stay where you are (1) ; follow the fish (2)
+@69-2 
+you sit on a rock on the bank of the river and dip your toes into the water 
+it washes the dirt and grim from your feet 
+you wash your hands and your face in the water too 
+you sit there for a while finally away from much of the danger in the forest 
+you poke at the little minnows swimming up to your feet 
+your stomach growls as dinner time apporaches (LOSE FOOD)
+Opetion 139: try to fish in the river (1) ; look on the banks for any food (2) 
+
+@70-1 
+you steady yourself againt the tree and begin to move about looking for any kind of shelter the forest can offer 
+the rain pours and soaks through your shirt and pants and you can hardely see in front of you 
+you begin to shiver in the rain and look around you for any sliver of shelter from the pelting rain 
+Option 140: run into the forest (1) ; find a tree to climb (2)
+@70-2 
+you lie on your back in the rain and open your mouth 
+rain drops trickle into your mouth, then pour in as the rain gets heavier 
+your start to shiver but water has never tasted this good (ADD WATER) 
+you bask in the rain, whooping in joy 
+your shirt is completely soaked and your pants stick to your skin by the time you finish drinking 
+the shivers will no stop now and you realize you fingers and toes have become numb 
+Opetion 141: continue (1) 
+
+@71-1
+Option 142: 
+@71-2 
+Opetion 143: 
+
+@72-1 
+you nod dumbfounded by the duck, you are eager to go home and willing to do anything 
+"ok let us begin" the duck says 
+"you must answer all of these questions correctly or you will remain in the jungle" 
+you glup, awaiting for the first question 
+"what is the capital of the oklahoma?"
+Option 144: tusla (1) ; oklahoma city (2)
+@72-2 
+Opetion 145: 
+
+@73-1 
+you are being push by the waves lower and lower into the river 
+you fight against the waves but your body is sluggish because of the magical water you just drank 
+you gasp for air but water fills your lungs 
+slowly the river consumes you and you fall away into the depth of the water 
+Option 146:  -- dies -- 
+@73-2 
+you push your head through the waves, gasping for air 
+you years of competitive swimming help you stay afloat as wave after wave of water knocks you down 
+you look around you and realize the river has widened and shore is hundreds of feet away 
+Opetion 147: try to swim to shore (1) ; let the river carry you (2) 
+
+@74-1 
+Option 148: 
+@74-2 
+Opetion 149: 
+
+@75-1 
+Option 150: 
+@75-2 
+Opetion 151: 
+
+@76-1 
+you settle youself under a weeping willow tree with leaves that brush the ground 
+you move the leaves apart and enter the enclosed space 
+eye glow and you freeze in place and you eyes slowly adjust 
+you realize its just a kitty and it looks just like the one you have at home! 
+you smile and walk over to the kitty 
+it climbs into your lap and snuggles again you
+you pet it until you fall into a restful sleep 
+Option 152: continue (1) 
+@76-2 
+you lay under the starts watching the passing clouds and the twinkling star 
+the meat and you belly makes you content and fall alseep easily thinking about home 
+Opetion 153: continue (1) 
+
+@77-1 
+with the wood you create a little circle 
+the fire crackles to light and it warms you up 
+suddenly the hairs on your arms stand up and the wind begins to howl 
+the night makes you uneasy
+Option 154: continue (1)
+@77-2
+you decided that fire might attract predators and decide against it 
+you find a low hanging tree with a grassy underbrush and decided to settle there 
+you roll around, listening to the sound of crickets 
+finally you fall into a light sleep  
+Option 155: continue (1)
+
+@78-1 
+Option 156: 
+@78-2 
+Option 157: 
+
+@79-1 
+Option 158: 
+@79-2 
+Option 159: 
+
+@80-1 
+the morning passes, then noon, now the afternoon heat hits your body 
+you are hungry and tired, dehydrated too (LOSE FOOD) 
+but the grassy green mountains head of you call your name 
+you keep moving each step slower than before, each breath more ragged than before 
+as the tall grass begins to thin you wonder how much farther to the mountains 
+Option 160: keep walking (1) ; take a break (2) 
+@80-2 
+Option 161: 
+
+@81-1 
+you contemplate how to get across the nest without being bitten 
+you figure that the best plan it just to run across as fast as possible 
+preparing to run across the nest of snakes your heart rate increases and you palms are sweaty 
+this is your last chance to retrace your steps but across the nest lies uknown treasure 
+Option 156: return to the wheat fields (1) ; risk it all (2) 
+@81-2 
+Option 157: 
+
+@82-1 
+Option 158: 
+@82-2 
+Option 159: 
+
+@83-1 
+Option 156: 
+@83-2 
+Option 157: 
+
+@84-1 
+Option 158: 
+@84-2 
+Option 159: 
+
+@85-1 
+Option 156: 
+@85-2 
+Option 157: 
+
+@86-1 
+Option 158: 
+@86-2 
+Option 159: 
+
+@87-1 
+Option 156: 
+@87-2 
+Option 157: 
+
+@88-1 
+"ni hao [hello]" you respond back to the sloth 
+it slowly ambles toward you 
+"wo de ming zi shi colin [my name is colin]" 
+"ni xiang hui jia shi bu shi [you want to go home dont you?]" 
+the pace of conversation is so slow you almost roll your eyes 
+"shi de [yes]" i reply, nodding 
+"hui da wo yi ge wen ti ni jiu ke yi hui jia [answer me one question and you can go home]" the sloth says 
+Option 158: answer the sloths question (1); move on (2) 
+@88-2 
+Option 159: 
+
+@89-1 
+in the night you suddenly are jolted awake by the sound of howling 
+wolves! 
+you scramble to sit up and find where the howling is originating from but it seems to come from all around
+you wait for your eyes to adjust to the darkeness but you do not see the wolves 
+you hear the wolves again
+Option 156: stay put (1) ; climb a tree (2) 
+@89-2 
+Option 157: 
+
+@90-1 
+golden eyes surround you and you realize you are dinner 
+you reach for your dagger but its no longer there 
+you are on your own now with 4 pairs of eyes surrounding you  
+Option 158: fight (1) ; flight (2) 
+@90-2 
+Option 159: 
+
+@91-1 
+you wake up the morning when the sun begins to rise 
+you look around and see foot prints of animals nearby 
+you realize they were wolves! thank god you did not light that fire 
+you stand up and look around the woodlands 
+Option 156: keep explore the woods (1) ; find food (2) 
+@91-2 
+Option 157: 
+
+@92-1 
+Option 158: 
+@92-2 
+Option 159: 
+
+
+// seth the dizzing duck (appears when dizzy)
+// val the galloping giraffee (spanish)
+// colin the sleepy sloth (chinese)
+//vim the vindictive viper (code)
 
