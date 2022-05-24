@@ -184,7 +184,7 @@ Option 29: search for food (1) ; start a fire and stay put (2)
 
 @15-1
 the turtle waves back at you with its front foot
-"i am zixuan the turtle
+"i am z the turtle
 i only speak in ryhme 
 ask any question
 and i will in time" says the turtle

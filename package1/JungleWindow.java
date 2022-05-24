@@ -20,7 +20,7 @@ public class JungleWindow {
     int hearts = 0;
     String option1, option2, option3;
     JPanel textPanel;
-    JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5, textLabel, toolLabel;
+    JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5, textLabel, toolLabel, toolLabel2, fullLabel, hungryLabel, hydrateLabel, thirstyLabel, toolLabel3;
     JTextArea text;
     Container background = new Container();
     Scanner scan = new Scanner(System.in);
@@ -204,11 +204,86 @@ public class JungleWindow {
 
 
 
-         //add Hunger bar
+        //add Hunger bar
+        ImageIcon food = new ImageIcon(getClass().getResource("/package1/APCS_JungleFood.png"));
+        Image foodImage  = food.getImage();
+        Image newFood = foodImage.getScaledInstance(150, 200, Image.SCALE_DEFAULT);
+        food = new ImageIcon(newFood);
+
+        fullLabel = new JLabel(); 
+        gameWindow.getContentPane();
+        fullLabel.setIcon(food);
+        Dimension size9 = fullLabel.getPreferredSize();
+        fullLabel.setBounds(660, -35, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(fullLabel);
+        fullLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(fullLabel);
+        fullLabel.setSize(500, 300);
+        fullLabel.setVisible(false);
+
+        //hungry bar
+        ImageIcon hunger = new ImageIcon(getClass().getResource("/package1/APCS_JungleHungryChickens.png"));
+        Image hungerImage  = hunger.getImage();
+        Image newHunger = hungerImage.getScaledInstance(150, 200, Image.SCALE_DEFAULT);
+        hunger = new ImageIcon(newHunger);
+
+        hungryLabel = new JLabel(); 
+        gameWindow.getContentPane();
+        hungryLabel.setIcon(hunger);
+        Dimension size10 = hungryLabel.getPreferredSize();
+        hungryLabel.setBounds(660, -35, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(hungryLabel);
+        hungryLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(hungryLabel);
+        hungryLabel.setSize(500, 300);
+        hungryLabel.setVisible(false);
+
         
         //add Thirst bar
+        //add dehydrated bar
+        ImageIcon thirsty = new ImageIcon(getClass().getResource("/package1/APCS_JungleWater2.png"));
+        Image thirstyImage  = thirsty.getImage();
+        Image newThirsty = thirstyImage.getScaledInstance(150, 200, Image.SCALE_DEFAULT);
+        thirsty = new ImageIcon(newThirsty);
+
+        thirstyLabel = new JLabel(); 
+        gameWindow.getContentPane();
+        thirstyLabel.setIcon(thirsty);
+        Dimension size12 = thirstyLabel.getPreferredSize();
+        thirstyLabel.setBounds(790, -35, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(thirstyLabel);
+        thirstyLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(thirstyLabel);
+        thirstyLabel.setSize(500, 300);
+        thirstyLabel.setVisible(false);
+
+        //water bar
+        ImageIcon water = new ImageIcon(getClass().getResource("/package1/APCS_JungleWater.png"));
+        Image waterImage  = water.getImage();
+        Image newWater = waterImage.getScaledInstance(150, 200, Image.SCALE_DEFAULT);
+        water = new ImageIcon(newWater);
+
+        hydrateLabel = new JLabel(); 
+        gameWindow.getContentPane();
+        hydrateLabel.setIcon(water);
+        Dimension size11 = hydrateLabel.getPreferredSize();
+        hydrateLabel.setBounds(790, -35, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(hydrateLabel);
+        hydrateLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(hydrateLabel);
+        hydrateLabel.setSize(500, 300);
+        hydrateLabel.setVisible(false);
 
         //add Tools
+        //dagger
         ImageIcon dagger = new ImageIcon(getClass().getResource("/package1/APCS_JungleDagger.png"));
         Image daggerImage  = dagger.getImage();
         Image newDagger = daggerImage.getScaledInstance(100, 200, Image.SCALE_DEFAULT);
@@ -226,9 +301,47 @@ public class JungleWindow {
         gameWindow.add(toolLabel);
         toolLabel.setSize(500, 300);
         toolLabel.setVisible(false);
-        
-        
 
+        //axe
+        ImageIcon axe = new ImageIcon(getClass().getResource("/package1/APCS_JungleAxe.png"));
+        Image axeImage  = axe.getImage();
+        Image newAxe = axeImage.getScaledInstance(100, 200, Image.SCALE_DEFAULT);
+        axe = new ImageIcon(newAxe);
+
+        toolLabel2 = new JLabel(); 
+        gameWindow.getContentPane();
+        toolLabel2.setIcon(axe);
+        Dimension size7 = toolLabel2.getPreferredSize();
+        toolLabel2.setBounds(1000, 200, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(toolLabel2);
+        toolLabel2.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(toolLabel2);
+        toolLabel2.setSize(500, 300);
+        toolLabel2.setVisible(false);
+
+        //axe
+        ImageIcon wood = new ImageIcon(getClass().getResource("/package1/APCS_JungleWood.png"));
+        Image woodImage  = wood.getImage();
+        Image newWood = woodImage.getScaledInstance(100, 200, Image.SCALE_DEFAULT);
+        wood = new ImageIcon(newWood);
+
+        toolLabel3 = new JLabel(); 
+        gameWindow.getContentPane();
+        toolLabel3.setIcon(wood);
+        Dimension size13 = toolLabel3.getPreferredSize();
+        toolLabel3.setBounds(1000, 400, size.width, size.height);
+        gameWindow.setLayout(null);
+        gameWindow.add(toolLabel3);
+        toolLabel3.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameWindow.add(toolLabel3);
+        toolLabel3.setSize(500, 300);
+        toolLabel3.setVisible(false);
+
+        
+        
         
 
         //blurred game background
@@ -241,7 +354,7 @@ public class JungleWindow {
         gameWindow.add(bg);
         gameWindow.setBackground(Color.WHITE);
         bg.setIcon(opaque);
-        
+        gameWindow.setVisible(true);
 
        
         
