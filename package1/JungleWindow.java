@@ -15,18 +15,14 @@ import java.awt.Container;
 public class JungleWindow {
     JLabel bg = new JLabel(); 
     JFrame gameWindow;
-    boolean arrowKey = false;
     JButton startButton, button1, button2, button3;
-    int hearts = 0;
     String option1, option2, option3;
     JPanel textPanel;
     JLabel label, heartLabel1, heartLabel2, heartLabel3, heartLabel4, heartLabel5, textLabel, toolLabel, toolLabel2, fullLabel, hungryLabel, hydrateLabel, thirstyLabel, toolLabel3;
     JTextArea text;
-    Container background = new Container();
-    Scanner scan = new Scanner(System.in);
     
 
-    private Font normalFont = new Font("Times New Roman", Font.PLAIN, 26);
+   // private Font normalFont = new Font("Times New Roman", Font.PLAIN, 26);
     
 
     
@@ -194,7 +190,7 @@ public class JungleWindow {
         text = new JTextArea("This is the main text area");
         text.setBounds(10, 150, 600, 250);
         //text.setBackground(Color.white);
-        text.setFont(normalFont);
+        text.setFont(new Font("Times New Roman", Font.PLAIN, 26));
         text.setLineWrap(true);
         text.setWrapStyleWord(true);
         text.setEditable(false);
@@ -355,15 +351,6 @@ public class JungleWindow {
         gameWindow.setBackground(Color.WHITE);
         bg.setIcon(opaque);
         gameWindow.setVisible(true);
-
-       
-        
-
-
-
-        
-        
-
 
         
         //set ui visible

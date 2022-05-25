@@ -2,14 +2,13 @@ package package1;
 
 
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import java.awt.Image;
 import java.awt.Color;
 
 public class TransitionUIHandler 
 {
     JungleWindow jw;
-    String name;
-    public String currText;
     private int hearts = 5;
 
     public TransitionUIHandler(JungleWindow currJW)
@@ -167,7 +166,40 @@ public class TransitionUIHandler
     
     public void gameOver()
     {
+        jw.button1.setVisible(false);
+        jw.button2.setVisible(false);
+        jw.button3.setVisible(false);
 
+        jw.heartLabel1.setVisible(false);
+        jw.heartLabel2.setVisible(false);
+        jw.heartLabel3.setVisible(false);
+        jw.heartLabel4.setVisible(false);
+        jw.heartLabel5.setVisible(false);
+
+        jw.text.setVisible(false);
+        
+        jw.hungryLabel.setVisible(false);
+        jw.thirstyLabel.setVisible(false);
+
+        jw.fullLabel.setVisible(false);
+        jw.hydrateLabel.setVisible(false);
+
+        jw.toolLabel.setVisible(false);
+        jw.toolLabel2.setVisible(false);
+        jw.toolLabel3.setVisible(false);
+        
+
+        jw.gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jw.gameWindow.setBounds(100, 100, 1200, 800);
+        ImageIcon gameOver = new ImageIcon(getClass().getResource("/package1/APCS_GameOver.png"));
+        Image gameOverImage  = gameOver.getImage();
+        Image newOver = gameOverImage.getScaledInstance(1200, 800, Image.SCALE_DEFAULT);
+        gameOver = new ImageIcon(newOver);
+        jw.gameWindow.add(jw.bg);
+        jw.gameWindow.setBackground(Color.WHITE);
+        jw.bg.setIcon(gameOver);
+        jw.gameWindow.setIconImage(gameOverImage);
+        jw.gameWindow.setVisible(true);
     }
     
     public void displayDagger()

@@ -1,17 +1,22 @@
 package package1;
 
+import java.awt.Color;
 import java.lang.StackWalker.Option;
 import java.util.Currency;
+import java.util.Stack;
 import javax.crypto.CipherOutputStream;
 import javax.swing.event.TableColumnModelListener;
+import java.awt.Color;
 
 public class Narrative 
 {
     JungleGame jGame;
     JungleWindow jWindow;
     TransitionUIHandler tUiHandler;
-    Character you;
     public String currText;
+    private boolean seenBandits = false;
+    private Stack<Clothes> yourClothes;
+    
     
 
     public Narrative(JungleGame g, JungleWindow jw, TransitionUIHandler t)
@@ -30,7 +35,7 @@ public class Narrative
         jWindow.text.setText(currText);
         jGame.pos1 = "forage";
         jGame.pos2 = "";
-        jGame.pos3 ="";
+        jGame.pos3 = "";
 
        
         
@@ -81,14 +86,171 @@ public class Narrative
             case "say hi text": sayHiToTurtleText(); break;
             case "leave turtle": sayHiToTurtle(); break;
             case "climb up the mountain": climbMountainText(); break;
-            case "find the way around": aroundMountainText(); break;
+            case "find the way around": aroundMountain(); break;
             case "at top of mountain": topOfMountainText(); break;
             case "going around mountain": aroundMountain(); break;
             case "top of mountain house": topOfMountainHouse(); break;
+            case "open house": openHouseText(); break;
+            case "bandit scene": hearOppsInHouse(); break;
+            case "go to adventure": turtleSequence(); break;
+            case "leave the house": leaveHouseText(); break; 
+            case "fight the people": fightTheIntrudersText(); break;
+            case "jump": jumped(); break;
+            case "horrible decision": tUiHandler.gameOver(); break;
+            case "attack for key": attackForKey(); break;
+            case "bargain for key": bargainForKey(); break; 
+            case "Last situation": endScene(); break;
 
         }
     }
+    public void endScene()
+    {
+        jWindow.text.setText("As you make your way back to the forest, scarred from your experience, you see a traveler\nHe looks at you with awe, wondering how you beat\nthe troublesome bandits. You realize the tunic is the symbol of the bandits\nWith great love for defeating the terros of\nthe locals, he offers anything,\nand you make your way home");
+        jWindow.button1.setText(">");
+        jWindow.button2.setText( "");
+        jWindow.button3.setText("");
+        jGame.pos1 = "you won";
+        jGame.pos2 = "";
+        jGame.pos3 = "";
+    }
+    public void attackForKey()
+    {
+        jWindow.text.setText("You decide to attack the troop\nAlthough alone, you put up a good fight\nYou manage to steal a seemingly useful scarf and tunic\n");
+        yourClothes.add(new Clothes("grey", "bandit scarf"));
+        yourClothes.add(new Clothes("grey", "tunic"));
+        jWindow.button1.setText(">");
+        jWindow.button2.setText( "");
+        jWindow.button3.setText("");
+        jGame.pos1 = "Last situation";
+        jGame.pos2 = "";
+        jGame.pos3 = "";
+    }
 
+    public void bargainForKey()
+    {
+        
+        double curr = Math.random();
+        if ( curr > 0.5)
+        {
+            jWindow.text.setText("You decide to bargain with the troop\nAlthough alone, you make good offers\nYou manage to receive a seemingly useful scarf and tunic however loss of resources\nUnluckily,to send a message, they begin to attack, but you manage to escape in time");
+            tUiHandler.loseHeart();
+            tUiHandler.loseAxe();
+            tUiHandler.loseDagger();
+            tUiHandler.loseFood();
+            tUiHandler.loseWater(); 
+            tUiHandler.loseWood();
+            jWindow.button1.setText(">");
+            jWindow.button2.setText( "");
+            jWindow.button3.setText("");
+            jGame.pos1 = "Last situation";
+            jGame.pos2 = "";
+            jGame.pos3 = "";
+
+            
+        }
+        else
+        {
+            jWindow.text.setText("You decide to bargain with the troop\nThey notice you're alone and take your resources, you eventually starve");
+            tUiHandler.loseAxe();
+            tUiHandler.loseDagger();
+            tUiHandler.loseFood();
+            tUiHandler.loseWater(); 
+            tUiHandler.loseWood();
+            jWindow.button1.setText(">");
+            jWindow.button2.setText( "");
+            jWindow.button3.setText("");
+            jGame.pos1 = "horrible decision";
+            jGame.pos2 = "";
+            jGame.pos3 = "";
+        }
+        
+    }
+
+    public void jumped()
+    {
+        jWindow.text.setText("terrible choice");
+        jWindow.button1.setText(">");
+        jWindow.button2.setText( "");
+        jWindow.button3.setText("");
+        jGame.pos1 = "horrible decision";
+        jGame.pos2 = "";
+        jGame.pos3 = "";
+    }
+
+    public void leaveHouseText()
+    {
+        if ( seenBandits)
+        {
+            currText = "You run into a familiar group of bandits on the way out\nYou see the edge of the cliff behind\nYou as your only escape";
+            jWindow.text.setText(currText);
+            jWindow.button1.setText("Fight");
+            jWindow.button2.setText( "jump");
+            jWindow.button3.setText("bargain");
+            jGame.pos1 = "attack for key"; 
+            jGame.pos2 = "jump";
+            jGame.pos3 = "bargain for key";
+        }
+        else
+        {
+            currText = "You run into a group of bandits searching for a key\nThey notice you and begin to approach\nYou see the edge of the cliff behind\nYou as your only escape";
+            jWindow.text.setText(currText);
+            jWindow.button1.setText("Fight");
+            jWindow.button2.setText( "jump");
+            jWindow.button3.setText("bargain");
+            jGame.pos1 = "attack for key";
+            jGame.pos2 = "jump";
+            jGame.pos3 = "bargain for key";
+        }
+ }
+
+    public void fightTheIntrudersText()
+    {
+        if ( seenBandits)
+        {
+            currText = "You hear familiar voices\nThe bandits are back, seeming to be searching for something\nYou hear a soft voice looking for a key of some sort\nYou notice the window behind you, with no other exit";
+            jWindow.text.setText(currText);
+            jWindow.button1.setText("Fight");
+            jWindow.button2.setText( "jump");
+            jWindow.button3.setText("bargain");
+            jGame.pos1 = "attack for key";
+            jGame.pos2 = "jump";
+            jGame.pos3 = "bargain for key";
+        }
+        else
+        {
+            currText = "You notice a group of bandits searching for some sort of key\nThey begin to enter the house\nYou notice the window behind you, with no other exit";
+            jWindow.text.setText(currText);
+            jWindow.button1.setText("Fight");
+            jWindow.button2.setText( "jump");
+            jWindow.button3.setText("bargain");
+            jGame.pos1 = "attack for key";
+            jGame.pos2 = "jump";
+            jGame.pos3 = "bargain for key";
+        }
+    }
+    public void hearOppsInHouse()
+    {
+        currText = "You hear talking outside the right window\nIt seems that someone else has reached the house\nAt the same time as you";
+        jWindow.text.setText(currText);
+        jWindow.button1.setText("Leave house");
+        jWindow.button2.setText( "Stay and fight");
+        jWindow.button3.setText("");
+        jGame.pos1 = "leave the house";
+        jGame.pos2 = "fight the people";
+        jGame.pos3 = "";
+    }
+
+    public void openHouseText()
+    {
+        currText = "Scarily, the door creaks open\n Inside lies a barren room with a scroll on the wall\nIt reads: Whoever reads this, return the key, and you will be saved";
+        jWindow.text.setText(currText);
+        jWindow.button1.setText(">");
+        jWindow.button2.setText( "");
+        jWindow.button3.setText("");
+        jGame.pos1 = "bandit scene";
+        jGame.pos2 = "";
+        jGame.pos3 = "";
+    }
     public void topOfMountainHouse()
     {
         currText = "Slowly you cut down the vines one by one\nThe door is thick with vines and it takes immense strength to cut through all the vines\nYou nick yourself a few times in the process \nYou begin to sweat profusely (LOSE WATER)\nFinally all of the vines are out of the way \nThe door has a metal bolt that keeps it shut which has rusted with age \nThe tree house has an almost ominous feeling to it \nIt makes you uneasy and unsure how to proceed";
@@ -97,7 +259,7 @@ public class Narrative
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
         tUiHandler.loseWater();
-        jGame.pos1 = "top of mountain house";
+        jGame.pos1 = "open house";
         jGame.pos2 = "";
         jGame.pos3 = "";
 
@@ -134,22 +296,11 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        jGame.pos1 = "top of mountain";
+        jGame.pos1 = "top of mountain house";
         jGame.pos2 = "";
         jGame.pos3 = "";
     }
 
-    public void aroundMountainText()
-    {
-        currText = "attempt to climb up the mountain (1) ; find the long way around (2)";
-        jWindow.text.setText(currText);
-        jWindow.button1.setText(">");
-        jWindow.button2.setText( "");
-        jWindow.button3.setText("");
-        jGame.pos1 = "going around mountain";
-        jGame.pos2 = "";
-        jGame.pos3 = "";
-    }
 
     public void canyonRiverChoice()
     {
@@ -334,7 +485,7 @@ public class Narrative
 
     public void runSequenceText()
     {
-        currText = "You succesfully get away\nAs you follow the path\n You make your way to forest";
+        currText = "You succesfully get away\nAs you follow the path\nYou make your way to forest";
         jWindow.text.setText(currText);
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
@@ -346,7 +497,8 @@ public class Narrative
 
     public void fightSequence()
     {
-            currText = "A group of bandits appear\n Ready to fight";
+            seenBandits = true;
+            currText = "A group of bandits appear\nReady to fight";
             jWindow.text.setText(currText);
             jWindow.button1.setText("Fight");
             jWindow.button2.setText( "Run");
@@ -361,7 +513,7 @@ public class Narrative
     {
         if ( !jWindow.toolLabel3.isVisible())
         {
-            currText = "On the flat lands you run into blueberry bushes (ADD FOOD)\nAs you look up to the sky you realize dusk is upon you \nThe sky is now a pinkish orange and the sun is low \nWith your lack of wood you face the terrors of the night ";
+            currText = "On the flat lands you run into blueberry bushes (ADD FOOD)\nAs you look up to the sky you realize dusk is upon you \nThe sky is now a pinkish orange and the sun is low \nWith your lack of firewood you will be left to the terrors of the night ";
             jWindow.text.setText(currText);
             jWindow.button1.setText(">");
             jWindow.button2.setText( "");
@@ -380,7 +532,7 @@ public class Narrative
             jWindow.button3.setText("");
             tUiHandler.gainFood();
             tUiHandler.loseAxe();
-            currText = "On the flat lands you run into blueberry bushes (ADD FOOD)\nAs you look up to the sky you realize dusk is upon you \nThe sky is now a pinkish orange and the sun is low \nYou will need a axe and wood to build a fire to stay warm (LOSE AXE) (LOSE WOOD)";
+            currText = "On the flat lands you run into blueberry bushes (ADD FOOD)\nAs you look up to the sky you realize dusk is upon you\nThe sky is now a pinkish orange and the sun is low \nYou will need a axe and wood to build a fire to stay warm (LOSE AXE) (LOSE WOOD)";
             tUiHandler.loseWood();
             jWindow.text.setText(currText);
             
@@ -411,7 +563,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "The river flows into the canyon and thins into a stream \nThe canyon has sheets of rocks that curve as they meet on the top.\nIn the river something glistens.\nIts an axe! (ADD AXE)";
+        currText = "The river flows into the canyon and thins into a stream\nThe canyon has sheets of rocks that curve as they meet on the top.\nIn the river something glistens.\nIts an axe! (ADD AXE)";
         tUiHandler.displayAxe();
         jWindow.text.setText(currText);
         
@@ -425,7 +577,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "The land flattens out onto a plain \nmoss covers the floor, it feels squishy \nas you walk around birds sing and butterflies flutter \non a lone tree stump an axe is stuck in the wood \nyou pull the axe out of the wood and add it to your pack\nAxe added to Inventory! (ADD AXE) ";
+        currText = "The land flattens out onto a plain\nA squishy moss covers the ground\nas you walk around birds sing and butterflies flutter \nOn a lone tree stump an axe is stuck in the wood \nYou pull the axe out of the wood and add it to your pack\nAxe added to Inventory! (ADD AXE) ";
         tUiHandler.displayAxe();
         jWindow.text.setText(currText);
         
@@ -440,7 +592,7 @@ public class Narrative
         jWindow.button1.setText("Cross the river");
         jWindow.button2.setText("Walk along the river");
         jWindow.button3.setText("");
-        currText = "Option 4: Cross the river (1) ; Walk along the river (2)";
+        currText = "Cross the river (1) ; Walk along the river (2)";
         jWindow.text.setText(currText);
 
         jGame.pos1 = "cross the river";
@@ -454,7 +606,7 @@ public class Narrative
         jWindow.button1.setText("Go to the river?");
         jWindow.button2.setText("Food ?");
         jWindow.button3.setText("");
-        currText = "Out of the corner of your eye you notice a river. \n Option 1: Go towards the river (1) ; Search for food (2)";
+        currText = "Out of the corner of your eye you notice a river\nGo towards the river (1) ; Search for food (2)";
         jWindow.text.setText(currText);
 
         jGame.pos1 = "river";
@@ -467,7 +619,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "You make your way to the river bank \n The water flows past your feet, with a powerful current";
+        currText = "You make your way to the river bank\nThe water flows past your feet, with a powerful current";
         jWindow.text.setText(currText);
         
         jGame.pos1 = "riverPond";
@@ -480,7 +632,7 @@ public class Narrative
         jWindow.button1.setText("Enter the river?");
         jWindow.button2.setText("Search for a pond ?");
         jWindow.button3.setText("");
-        currText = "Option 2: Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)";
+        currText = "Venture in the river to wash and get water (1) ; Continue along the bank waiting for a pond (2)";
         jWindow.text.setText(currText);
 
         jGame.pos1 = "followRiver";
@@ -509,7 +661,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "As you keep walking you run into a fork in the river\nLeft takes you to the flatlands with wheat.\nRight takes to a canyon with herds of sheep. ";
+        currText = "As you keep walking you run into a fork in the river\nLeft takes you to the flatlands with wheat.\nRight takes to a canyon with herds of sheep.";
         jWindow.text.setText(currText);
         
         jGame.pos1 = "pondSection";
@@ -523,7 +675,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "You stand up and face the forest in front of you \n out of the corner of your eye you stop something move";
+        currText = "You stand up and face the forest in front of you \nOut of the corner of your eye you stop something move";
         jWindow.text.setText(currText);
         
         jGame.pos1 = "foodSection";
@@ -537,7 +689,7 @@ public class Narrative
         jWindow.button1.setText("Chase the movement");
         jWindow.button2.setText("Keep walking through the forest");
         jWindow.button3.setText("");
-        currText = "Option 3: Chase the movement (1) ; Keep walking through the forest (2)";
+        currText = "Chase the movement (1) ; Keep walking through the forest (2)";
         jWindow.text.setText(currText);
 
         jGame.pos1 = "movement";
@@ -551,7 +703,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "You turn and follow the motion\nsomething furry and brown runs through the underbrush\nAs you run suddenly you feel exhausted (LOSE WATER) \nyou have not been drinking any water and dehydration gets the best of you\nThe animals escapes and you find yourself in a grove of trees";
+        currText = "You turn and follow the motion\nSomething furry and brown runs through the underbrush\nAs you run suddenly you feel exhausted(LOSE WATER) \nYou have not been drinking any water and dehydration gets the best of you\nThe animals escapes and you find yourself in a grove of trees";
         tUiHandler.loseWater();
         jWindow.text.setText(currText);
         
@@ -565,10 +717,10 @@ public class Narrative
 
     public void pondSection()
     {
-        jWindow.button1.setText("Left ?");
-        jWindow.button2.setText("Right ?");
+        jWindow.button1.setText("Left");
+        jWindow.button2.setText("Right");
         jWindow.button3.setText("");
-        currText = "Option 5: follow the fork left to the flatlands (1); follow the fork right to the canyon (2)";
+        currText = "Follow the fork left to the flatlands (1); Follow the fork right to the canyon (2)";
         jWindow.text.setText(currText);
 
         jGame.pos1 = "go to the flatlands text";
@@ -583,7 +735,7 @@ public class Narrative
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
-        currText = "As you walk into the forest you come across a crawling green vine\nit has purple palm sized fruits dangling from its stem\nyou dont recognize the fruit but it is so tempting ";
+        currText = "As you walk into the forest you come across a large green vine\nIt has purple, palm sized fruits dangling from its stem\nIt's nothing familiar but looks intruiging";
         jWindow.text.setText(currText);
   
         jGame.pos1 = "climb the tree";
@@ -599,19 +751,19 @@ public class Narrative
         jWindow.button1.setText("Climb the tree");
         jWindow.button2.setText("Walk back");
         jWindow.button3.setText("");
-        currText = "Option 6: Climb the tree to find fruit (1) ; walk back to find water (2)";
+        currText = "Climb the tree to find fruit (1) ; Walk back to find water (2)";
         jWindow.text.setText(currText);
         jGame.pos1 = "check the tree";
-        jGame.pos2 = "";
+        jGame.pos2 = "walk back";
         jGame.pos3 = "";   
     }
 
     private void climbedTreeChoice()
     {
-        jWindow.button1.setText("pick the fruit");
-        jWindow.button2.setText("be cautious and move on");
+        jWindow.button1.setText("Pick the fruit");
+        jWindow.button2.setText("Be cautious and ignore it");
         jWindow.button3.setText("");
-        currText = "Option 7: pick the fruit to eat (1) ; be cautious and move on (2)";
+        currText = "Pick the fruit to eat (1); Be cautious and move on (2)";
         jWindow.text.setText(currText);
 
         jGame.pos1 = "eat the fruit";
@@ -622,10 +774,10 @@ public class Narrative
 
     public void fruitText()
     {
-        jWindow.button1.setText("follow the trail");
-        jWindow.button2.setText( "keep exploring");
+        jWindow.button1.setText("Follow the trail");
+        jWindow.button2.setText( "Explore the forest");
         jWindow.button3.setText("");
-        currText = "its passion fruit! (ADD FOOD)\nthe fruit is so ripe and bursting with flavor\n you also are able to connecting the broken branches(ADD WOOD) \nnow that you are full you its time to continue on your adventure\nyou see a dirt trail in front of you that is over grown";
+        currText = "It's a passion fruit! (ADD FOOD)\nThe fruit is ripe and bursting with flavor\nYou also are able to connect the broken branches(ADD WOOD) \nNow that you are full you its time to continue on your adventure\nIn front of you lies a patchy dirt trial";
         tUiHandler.gainWood();
         tUiHandler.gainFood();
         jWindow.text.setText(currText);
