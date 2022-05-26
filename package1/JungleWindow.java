@@ -1,6 +1,4 @@
 package package1;
-
-
 import javax.swing.*;
 import package1.JungleGame.ChoiceHandler;
 import java.awt.Color;
@@ -12,6 +10,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.InputStream;
 import java.awt.Container;
+/**
+ * A class which designs and runs the different aspects and elements of the GUI
+ *
+ *  @author  Nachiket Joshi
+ *  @version 5/26/22
+ *  @author  Period: 3
+ *  @author  Assignment: APCSJungleGame - Jungle Window
+ *
+ *  @author  Sources: Nachiket Joshi
+ *  
+ * 
+ */
 public class JungleWindow {
     JLabel bg = new JLabel(); 
     JFrame gameWindow;
@@ -26,7 +36,11 @@ public class JungleWindow {
     
 
     
-
+    /**
+     * 
+     * @param ch - a choice handler to pass to 
+     * the different buttons created
+     */
     public void gameStartUI(ChoiceHandler ch)
     {
 

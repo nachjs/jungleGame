@@ -1,8 +1,18 @@
 package package1;
-
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+/**
+ * A class which designs and runs the different aspects and elements of the GUI
+ *
+ *  @author  Nachiket Joshi
+ *  @version 5/26/22
+ *  @author  Period: 3
+ *  @author  Assignment: APCSJungleGame - JungleGame
+ *
+ *  @author  Sources: Nachiket Joshi
+ *  
+ * 
+ */
 public class JungleGame 
 {
     ChoiceHandler cHandler = new ChoiceHandler();
@@ -12,7 +22,10 @@ public class JungleGame
     public String pos1 = "", pos2 = "", pos3 = "";
 
    
-
+    /**
+     * runs a new instance
+     *  of jungle game
+     */
     public JungleGame()
     {
         jw.gameStartUI(cHandler);
@@ -20,13 +33,19 @@ public class JungleGame
         tuim.displayStartScreen();
     }
 
+    
+    /** 
+     * @param args - runs a new game when created
+     */
     public static void main(String[] args)
     {
         new JungleGame();
     }
     public class ChoiceHandler implements ActionListener 
     {
-
+        /**
+         * implements action performed, updating use of button
+         */
         public void actionPerformed(ActionEvent event) {
     
             String choice = event.getActionCommand();

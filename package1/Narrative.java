@@ -1,5 +1,4 @@
 package package1;
-
 import java.awt.Color;
 import java.lang.StackWalker.Option;
 import java.util.Currency;
@@ -7,7 +6,18 @@ import java.util.Stack;
 import javax.crypto.CipherOutputStream;
 import javax.swing.event.TableColumnModelListener;
 import java.awt.Color;
-
+/**
+ * A class which designs and runs the different aspects and elements of the GUI
+ *
+ *  @author  Nachiket Joshi
+ *  @version 5/26/22
+ *  @author  Period: 3
+ *  @author  Assignment: APCSJungleGame - Narrative
+ *
+ *  @author  Sources: Nachiket Joshi
+ *  
+ * 
+ */
 public class Narrative 
 {
     JungleGame jGame;
@@ -18,14 +28,20 @@ public class Narrative
     private Stack<Clothes> yourClothes;
     
     
-
+    /** 
+     * constructs all attributes of the game
+     */
     public Narrative(JungleGame g, JungleWindow jw, TransitionUIHandler t)
     {
         jGame = g;
         jWindow = jw;
         tUiHandler = t;
+        yourClothes = new Stack<>();
     }
 
+    /** 
+     * runs basic game situation
+     */
     public void defaultGame()
     {
         jWindow.button1.setText(">");
@@ -42,6 +58,10 @@ public class Narrative
 
     }
 
+    /** 
+     * @param nextPosition - the new action which 
+     * needs to be attributed to the button
+     */
     public void updatePosition(String nextPosition)
     {
         switch(nextPosition)
@@ -100,9 +120,14 @@ public class Narrative
             case "attack for key": attackForKey(); break;
             case "bargain for key": bargainForKey(); break; 
             case "Last situation": endScene(); break;
+            case "you won": tUiHandler.win(); break;
 
         }
     }
+
+    /** 
+     * end game screen
+     */
     public void endScene()
     {
         jWindow.text.setText("As you make your way back to the forest, scarred from your experience, you see a traveler\nHe looks at you with awe, wondering how you beat\nthe troublesome bandits. You realize the tunic is the symbol of the bandits\nWith great love for defeating the terros of\nthe locals, he offers anything,\nand you make your way home");
@@ -113,11 +138,15 @@ public class Narrative
         jGame.pos2 = "";
         jGame.pos3 = "";
     }
+    /** 
+     * creates diaglogue for attaacks
+     * sequence between bandits
+     */
     public void attackForKey()
     {
-        jWindow.text.setText("You decide to attack the troop\nAlthough alone, you put up a good fight\nYou manage to steal a seemingly useful scarf and tunic\n");
         yourClothes.add(new Clothes("grey", "bandit scarf"));
         yourClothes.add(new Clothes("grey", "tunic"));
+        jWindow.text.setText("You decide to attack the troop\nAlthough alone, you put up a good fight\nYou manage to steal a seemingly useful scarf and tunic\n");
         jWindow.button1.setText(">");
         jWindow.button2.setText( "");
         jWindow.button3.setText("");
@@ -126,6 +155,10 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+    /** 
+     * creates diaglogue for bargain
+     * sequence between bandits
+     */
     public void bargainForKey()
     {
         
@@ -166,6 +199,10 @@ public class Narrative
         
     }
 
+    /** 
+     * creates diaglogue for jumping
+     * off cliff
+     */
     public void jumped()
     {
         jWindow.text.setText("terrible choice");
@@ -177,6 +214,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void leaveHouseText()
     {
         if ( seenBandits)
@@ -203,6 +243,9 @@ public class Narrative
         }
  }
 
+    /** 
+     * creates diaglogue 
+     */
     public void fightTheIntrudersText()
     {
         if ( seenBandits)
@@ -228,6 +271,9 @@ public class Narrative
             jGame.pos3 = "bargain for key";
         }
     }
+     /** 
+     * creates diaglogue 
+     */
     public void hearOppsInHouse()
     {
         currText = "You hear talking outside the right window\nIt seems that someone else has reached the house\nAt the same time as you";
@@ -240,6 +286,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void openHouseText()
     {
         currText = "Scarily, the door creaks open\n Inside lies a barren room with a scroll on the wall\nIt reads: Whoever reads this, return the key, and you will be saved";
@@ -251,6 +300,9 @@ public class Narrative
         jGame.pos2 = "";
         jGame.pos3 = "";
     }
+     /** 
+     * creates diaglogue 
+     */
     public void topOfMountainHouse()
     {
         currText = "Slowly you cut down the vines one by one\nThe door is thick with vines and it takes immense strength to cut through all the vines\nYou nick yourself a few times in the process \nYou begin to sweat profusely (LOSE WATER)\nFinally all of the vines are out of the way \nThe door has a metal bolt that keeps it shut which has rusted with age \nThe tree house has an almost ominous feeling to it \nIt makes you uneasy and unsure how to proceed";
@@ -264,6 +316,9 @@ public class Narrative
         jGame.pos3 = "";
 
     }
+     /** 
+     * creates diaglogue 
+     */
     public void topOfMountainText()
     {
         currText = "You enter a deep forest at the top of mountain\nYou see the edge of the house\nCovered in vines";
@@ -276,6 +331,9 @@ public class Narrative
         jGame.pos3 = "";
     }
     
+     /** 
+     * creates diaglogue 
+     */
     public void aroundMountain()
     {
         currText = "You enter a deep forest along the other side of the mountain\nYou see the edge of the house\nCovered in vines";
@@ -289,6 +347,9 @@ public class Narrative
     }
 
 
+     /** 
+     * creates diaglogue 
+     */
     public void climbMountainText()
     {
         currText = "You enter a deep forest at the top of the mountain\nYou see the edge of the house\nCovered in vines";
@@ -302,6 +363,9 @@ public class Narrative
     }
 
 
+     /** 
+     * creates diaglogue 
+     */
     public void canyonRiverChoice()
     {
         jWindow.button1.setText("Climb the mountain");
@@ -315,6 +379,9 @@ public class Narrative
         jGame.pos3 = "";   
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void sayHiToTurtleText()
     {
         currText = "Without apologizing Z responds\nFind the house atop the hill\nWithin a key to unlock good will"; 
@@ -327,11 +394,17 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void sayHiToTurtle()
     {
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void petTheTurtleText()
     {
         currText = "The turtle waves back at you with its front foot\nI am z the turtle\nI only speak in ryhme \nAsk any question\nAnd i will in time\nsays the turtle";
@@ -344,6 +417,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void petTheTurtle()
     {
         currText = "The turtle snaps down on your hand\nBlood pours out of the wound which is 3 inches long (LOSE HEART)\nOh no! you dont have any band aids or gauze on you";
@@ -357,6 +433,10 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+
+     /** 
+     * creates diaglogue 
+     */
     public void turtleSequence()
     {
         currText = "As you follow the trail you come across a pond \nThe pond if full of fish and plants \nOn the edge of the pond you spot a turtle\nAs you walk toward the turtle it starts talking!";
@@ -369,6 +449,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void turtleSection()
     {
         currText = "Say hi to the turtle (1) ; Pet the turtle (2)";
@@ -381,6 +464,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void banditAttackSequence()
     {
         if ( jWindow.toolLabel.isVisible() || jWindow.toolLabel2.isVisible())
@@ -417,6 +503,10 @@ public class Narrative
        
 
     }
+
+     /** 
+     * creates diaglogue 
+     */
     public void getHurtByBandits()
     {
     
@@ -433,6 +523,9 @@ public class Narrative
         jGame.pos3 = "";
     }
     
+     /** 
+     * creates diaglogue 
+     */
     public void bargainWithBandits()
     {
 
@@ -469,6 +562,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void fightBandits()
     {
         currText = "The bandits draw their weapons";
@@ -483,6 +579,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void runSequenceText()
     {
         currText = "You succesfully get away\nAs you follow the path\nYou make your way to forest";
@@ -495,6 +594,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void fightSequence()
     {
             seenBandits = true;
@@ -509,6 +611,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void flatlandsSection()
     {
         if ( !jWindow.toolLabel3.isVisible())
@@ -544,6 +649,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void canyonRiverText()
     {
         jWindow.button1.setText(">");
@@ -558,6 +666,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void canyonText()
     {
         jWindow.button1.setText(">");
@@ -572,6 +683,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void flatlandsText()
     {
         jWindow.button1.setText(">");
@@ -587,6 +701,9 @@ public class Narrative
     }
    
 
+     /** 
+     * creates diaglogue 
+     */
     private void riverCrossChoice()
     {
         jWindow.button1.setText("Cross the river");
@@ -601,6 +718,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void forageSection()
     {   
         jWindow.button1.setText("Go to the river?");
@@ -614,6 +734,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void riverText()
     {
         jWindow.button1.setText(">");
@@ -627,6 +750,9 @@ public class Narrative
         jGame.pos3 = "";
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void riverOrPondSection()
     {
         jWindow.button1.setText("Enter the river?");
@@ -642,6 +768,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void followRiverSectionText()
     {
         jWindow.button1.setText(">");
@@ -655,7 +784,10 @@ public class Narrative
         jGame.pos2 = "";
         jGame.pos3 = "";
     }
-    
+   
+     /** 
+     * creates diaglogue 
+     */
     public void pondSectionText()
     {
         jWindow.button1.setText(">");
@@ -670,6 +802,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void foodText()
     {
         jWindow.button1.setText(">");
@@ -684,6 +819,9 @@ public class Narrative
         
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void foodSection()
     {
         jWindow.button1.setText("Chase the movement");
@@ -698,6 +836,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void movementSectionText()
     {
         jWindow.button1.setText(">");
@@ -715,6 +856,9 @@ public class Narrative
     }
 
 
+     /** 
+     * creates diaglogue 
+     */
     public void pondSection()
     {
         jWindow.button1.setText("Left");
@@ -730,6 +874,9 @@ public class Narrative
     }
 
 
+     /** 
+     * creates diaglogue 
+     */
     private void movementSection()
     {
         jWindow.button1.setText(">");
@@ -745,6 +892,9 @@ public class Narrative
 
 
 
+     /** 
+     * creates diaglogue 
+     */
     private void climbSectionText()
     {
         
@@ -758,6 +908,9 @@ public class Narrative
         jGame.pos3 = "";   
     }
 
+     /** 
+     * creates diaglogue 
+     */
     private void climbedTreeChoice()
     {
         jWindow.button1.setText("Pick the fruit");
@@ -772,6 +925,9 @@ public class Narrative
 
     }
 
+     /** 
+     * creates diaglogue 
+     */
     public void fruitText()
     {
         jWindow.button1.setText("Follow the trail");

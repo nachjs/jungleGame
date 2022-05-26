@@ -1,15 +1,24 @@
 package package1;
-
+/**
+ * A class which designs and runs the different aspects and elements of the GUI
+ *
+ *  @author  Nachiket Joshi
+ *  @version 5/26/22
+ *  @author  Period: 3
+ *  @author  Assignment: APCSJungleGame - Clothes
+ *
+ *  @author  Sources: Nachiket Joshi
+ *  
+ * 
+ */
 public class Clothes
 {
+    /**
+     * attributes for clothes
+     */
     String color = "grey";
     String itemOfClothing ="shirt";
-    /**
-     * 
-     */
-    public Clothes(){
-
-    }
+    
     /**
      * 
      * @param color
@@ -20,14 +29,14 @@ public class Clothes
         itemOfClothing = item;
     }
     /**
-     * 
+     * returns color
      * @return
      */
     public String getColor(){
         return color;
     }
     /**
-     * 
+     * returns item
      * @return
      */
     public String getItemOfClothing(){
