@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"package1","l":"JungleGame.ChoiceHandler"},{"p":"package1","l":"Clothes"},{"p":"package1","l":"JungleGame"},{"p":"package1","l":"JungleWindow"},{"p":"package1","l":"Narrative"},{"p":"package1","l":"TransitionUIHandler"}]
