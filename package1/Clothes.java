@@ -21,23 +21,23 @@ public class Clothes
     
     /**
      * 
-     * @param color
-     * @param item
+     * @param color - color of item
+     * @param item - item name
      */
     public Clothes(String color, String item){
         this.color = color;
         itemOfClothing = item;
     }
     /**
-     * returns color
-     * @return
+     * 
+     * @return - returns color
      */
     public String getColor(){
         return color;
     }
     /**
-     * returns item
-     * @return
+     * 
+     * @return - returns item name
      */
     public String getItemOfClothing(){
         return itemOfClothing;

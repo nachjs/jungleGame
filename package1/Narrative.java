@@ -30,6 +30,9 @@ public class Narrative
     
     /** 
      * constructs all attributes of the game
+     * @param g - jungle game ran by class
+     * @param jw - jungle window used for modification
+     * @param t - used to transition
      */
     public Narrative(JungleGame g, JungleWindow jw, TransitionUIHandler t)
     {
