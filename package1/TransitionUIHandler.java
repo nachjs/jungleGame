@@ -21,6 +21,11 @@ public class TransitionUIHandler
     JungleWindow jw;
     private int hearts = 5;
 
+    /**
+     * 
+     * @param currJW - used to transition between all
+     * jungle windows
+     */
     public TransitionUIHandler(JungleWindow currJW)
     {
         jw = currJW;
